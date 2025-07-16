@@ -13,8 +13,10 @@ export default function LeaderboardTable() {
 
   const filtered = rows.filter(r => r.model.toLowerCase().includes(search));
   const sorted = [...filtered].sort((a, b) => {
-    const key = sortBy === 'avg' ? 'avg' : sortBy;
-    return b[key] - a[key];           // 降序
+    if (sortBy === 'avg') {
+      return b.avg - a.avg;
+    }
+    return (b.scores[sortBy] || 0) - (a.scores[sortBy] || 0);
   });
 
   const datasets = rows[0] ? Object.keys(rows[0].scores) : [];
