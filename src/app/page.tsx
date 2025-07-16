@@ -3,6 +3,7 @@ import { useState } from 'react';
 import RobenchTable from '@/components/RobenchTable';
 import Toolbar from '@/components/Toolbar';
 import TabNavigation from '@/components/TabNavigation';
+import RobenchScpRadarCharts from '@/components/RobenchScpRadarCharts';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('overall');
@@ -18,6 +19,10 @@ export default function Home() {
           <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
         </div>
         <RobenchTable activeTab={activeTab} />
+        
+        <div className="mt-12">
+          <RobenchScpRadarCharts />
+        </div>
       </div>
     </main>
   );
