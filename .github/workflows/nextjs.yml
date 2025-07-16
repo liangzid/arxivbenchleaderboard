@@ -37,10 +37,6 @@ jobs:
         env:
           NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
 
-      - name: Export static files
-        run: npm run export || npx next export
-        continue-on-error: true
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
