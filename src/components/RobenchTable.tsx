@@ -6,13 +6,45 @@ import { useLB } from '@/store/leaderboard';
 import useRobenchLeaderboard from '@/hooks/useRobenchLeaderboard';
 import { cn } from '@/lib/utils';
 
-export default function RobenchTable() {
+interface RobenchTableProps {
+  activeTab?: string;
+}
+
+export default function RobenchTable({ activeTab = 'overall' }: RobenchTableProps) {
   const rows = useRobenchLeaderboard();
   const { search, setSortBy, sortBy } = useLB();
 
   const filtered = rows.filter(r => r.model.toLowerCase().includes(search));
 
-  const sorted = [...filtered].sort((a, b) => {
+  // Process data based on active tab
+  const processedRows = filtered.map(row => {
+    if (activeTab === 'overall') {
+      return row;
+    }
+
+    // Find the specific scenario group
+    const scenarioGroup = row.groups.find(g => g.scenario === activeTab);
+    
+    if (!scenarioGroup) {
+      return {
+        ...row,
+        avgS: 0,
+        avgC: 0,
+        avgP: 0,
+        avgOverall: 0,
+      };
+    }
+
+    return {
+      ...row,
+      avgS: scenarioGroup.s,
+      avgC: scenarioGroup.c,
+      avgP: scenarioGroup.p,
+      avgOverall: (scenarioGroup.s + scenarioGroup.c + scenarioGroup.p) / 3,
+    };
+  });
+
+  const sorted = [...processedRows].sort((a, b) => {
     const key = sortBy as keyof typeof a;
     return (b[key] as number) - (a[key] as number);
   });
@@ -28,14 +60,15 @@ export default function RobenchTable() {
           <tr className="bg-white/5">
             <Th>#</Th>
             <Th className="text-left">Model</Th>
-            <Th onClick={() => setSortBy('avgS')}>Avg S</Th>
-            <Th onClick={() => setSortBy('avgC')}>Avg C</Th>
-            <Th onClick={() => setSortBy('avgP')}>Avg P</Th>
+            <Th onClick={() => setSortBy('avgS')}>S</Th>
+            <Th onClick={() => setSortBy('avgC')}>C</Th>
+            <Th onClick={() => setSortBy('avgP')}>P</Th>
+            <Th onClick={() => setSortBy('avgOverall')}>Avg</Th>
           </tr>
         </thead>
         <tbody>
           {sorted.map((row, idx) => (
-            <Row key={row.model} row={row} idx={idx} />
+            <Row key={row.model} row={row} idx={idx} activeTab={activeTab} />
           ))}
         </tbody>
       </table>
@@ -43,7 +76,7 @@ export default function RobenchTable() {
   );
 }
 
-function Row({ row, idx }: { row: ReturnType<typeof useRobenchLeaderboard>[0]; idx: number }) {
+function Row({ row, idx, activeTab }: { row: ReturnType<typeof useRobenchLeaderboard>[0]; idx: number; activeTab: string }) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -58,22 +91,25 @@ function Row({ row, idx }: { row: ReturnType<typeof useRobenchLeaderboard>[0]; i
         <Td>{(row.avgS * 100).toFixed(1)}</Td>
         <Td>{(row.avgC * 100).toFixed(1)}</Td>
         <Td>{(row.avgP * 100).toFixed(1)}</Td>
+        <Td>{(row.avgOverall * 100).toFixed(1)}</Td>
       </motion.tr>
 
-      <AnimatePresence>
-        {open && (
-          <motion.tr
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: 'auto', opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className="bg-white/5"
-          >
-            <td colSpan={5} className="p-4">
-              <DetailTable groups={row.groups} />
-            </td>
-          </motion.tr>
-        )}
-      </AnimatePresence>
+      {activeTab === 'overall' && (
+        <AnimatePresence>
+          {open && (
+            <motion.tr
+              initial={{ height: 0, opacity: 0 }}
+              animate={{ height: 'auto', opacity: 1 }}
+              exit={{ height: 0, opacity: 0 }}
+              className="bg-white/5"
+            >
+              <td colSpan={6} className="p-4">
+                <DetailTable groups={row.groups} />
+              </td>
+            </motion.tr>
+          )}
+        </AnimatePresence>
+      )}
     </>
   );
 }

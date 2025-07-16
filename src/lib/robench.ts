@@ -14,6 +14,7 @@ export interface RobenchRow {
   avgS: number;
   avgC: number;
   avgP: number;
+  avgOverall: number;
   groups: RobenchGroup[];    // 明细
 }
 
@@ -46,6 +47,7 @@ export function extractRobench(raw: ModelResult): RobenchRow {
   const avgS = groupList.reduce((s, g) => s + g.s, 0) / groupList.length || 0;
   const avgC = groupList.reduce((s, g) => g.c + s, 0) / groupList.length || 0;
   const avgP = groupList.reduce((s, g) => g.p + s, 0) / groupList.length || 0;
+  const avgOverall = (avgS + avgC + avgP) / 3;
 
-  return { model: '', ...arguments[1], avgS, avgC, avgP, groups: groupList };
+return { model: '', ...arguments[1], avgS, avgC, avgP, avgOverall, groups: groupList };
 }
