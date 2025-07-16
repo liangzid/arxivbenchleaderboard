@@ -28,10 +28,10 @@ export default function RobenchTable({ activeTab = 'overall' }: RobenchTableProp
     if (!scenarioGroup) {
       return {
         ...row,
-        avgS: 0,
-        avgC: 0,
-        avgP: 0,
-        avgOverall: 0,
+        avgS: { acc: 0, std: 0 },
+        avgC: { acc: 0, std: 0 },
+        avgP: { acc: 0, std: 0 },
+        avgOverall: { acc: 0, std: 0 },
       };
     }
 
@@ -40,13 +40,19 @@ export default function RobenchTable({ activeTab = 'overall' }: RobenchTableProp
       avgS: scenarioGroup.s,
       avgC: scenarioGroup.c,
       avgP: scenarioGroup.p,
-      avgOverall: (scenarioGroup.s + scenarioGroup.c + scenarioGroup.p) / 3,
+      avgOverall: {
+        acc: (scenarioGroup.s.acc + scenarioGroup.c.acc + scenarioGroup.p.acc) / 3,
+        std: (scenarioGroup.s.std + scenarioGroup.c.std + scenarioGroup.p.std) / 3,
+      },
     };
   });
 
   const sorted = [...processedRows].sort((a, b) => {
-    const key = sortBy as keyof typeof a;
-    return (b[key] as number) - (a[key] as number);
+    if (sortBy === 'avgS') return b.avgS.acc - a.avgS.acc;
+    if (sortBy === 'avgC') return b.avgC.acc - a.avgC.acc;
+    if (sortBy === 'avgP') return b.avgP.acc - a.avgP.acc;
+    if (sortBy === 'avgOverall') return b.avgOverall.acc - a.avgOverall.acc;
+    return 0;
   });
 
   return (
@@ -60,10 +66,10 @@ export default function RobenchTable({ activeTab = 'overall' }: RobenchTableProp
           <tr className="bg-white/5">
             <Th>#</Th>
             <Th className="text-left">Model</Th>
-            <Th onClick={() => setSortBy('avgS')}>S</Th>
-            <Th onClick={() => setSortBy('avgC')}>C</Th>
-            <Th onClick={() => setSortBy('avgP')}>P</Th>
-            <Th onClick={() => setSortBy('avgOverall')}>Avg</Th>
+            <Th onClick={() => setSortBy('avgS')} active={sortBy === 'avgS'}>S</Th>
+            <Th onClick={() => setSortBy('avgC')} active={sortBy === 'avgC'}>C</Th>
+            <Th onClick={() => setSortBy('avgP')} active={sortBy === 'avgP'}>P</Th>
+            <Th onClick={() => setSortBy('avgOverall')} active={sortBy === 'avgOverall'}>Avg</Th>
           </tr>
         </thead>
         <tbody>
@@ -88,10 +94,10 @@ function Row({ row, idx, activeTab }: { row: ReturnType<typeof useRobenchLeaderb
       >
         <Td>{idx + 1}</Td>
         <Td className="font-bold">{row.model}</Td>
-        <Td>{(row.avgS * 100).toFixed(1)}</Td>
-        <Td>{(row.avgC * 100).toFixed(1)}</Td>
-        <Td>{(row.avgP * 100).toFixed(1)}</Td>
-        <Td>{(row.avgOverall * 100).toFixed(1)}</Td>
+        <Td>{(row.avgS.acc * 100).toFixed(1)} ± {(row.avgS.std * 100).toFixed(1)}</Td>
+        <Td>{(row.avgC.acc * 100).toFixed(1)} ± {(row.avgC.std * 100).toFixed(1)}</Td>
+        <Td>{(row.avgP.acc * 100).toFixed(1)} ± {(row.avgP.std * 100).toFixed(1)}</Td>
+        <Td>{(row.avgOverall.acc * 100).toFixed(1)} ± {(row.avgOverall.std * 100).toFixed(1)}</Td>
       </motion.tr>
 
       {activeTab === 'overall' && (
@@ -114,7 +120,7 @@ function Row({ row, idx, activeTab }: { row: ReturnType<typeof useRobenchLeaderb
   );
 }
 
-function DetailTable({ groups }: { groups: { scenario: string; s: number; c: number; p: number }[] }) {
+function DetailTable({ groups }: { groups: { scenario: string; s: { acc: number; std: number }; c: { acc: number; std: number }; p: { acc: number; std: number } }[] }) {
   return (
     <table className="w-full text-sm">
       <thead>
@@ -129,9 +135,9 @@ function DetailTable({ groups }: { groups: { scenario: string; s: number; c: num
         {groups.map(g => (
           <tr key={g.scenario} className="border-b border-white/5">
             <td className="py-1">{g.scenario}</td>
-            <td className="text-center">{(g.s * 100).toFixed(1)}</td>
-            <td className="text-center">{(g.c * 100).toFixed(1)}</td>
-            <td className="text-center">{(g.p * 100).toFixed(1)}</td>
+            <td className="text-center text-sm">{(g.s.acc * 100).toFixed(1)} ± {(g.s.std * 100).toFixed(1)}</td>
+            <td className="text-center text-sm">{(g.c.acc * 100).toFixed(1)} ± {(g.c.std * 100).toFixed(1)}</td>
+            <td className="text-center text-sm">{(g.p.acc * 100).toFixed(1)} ± {(g.p.std * 100).toFixed(1)}</td>
           </tr>
         ))}
       </tbody>
@@ -139,12 +145,15 @@ function DetailTable({ groups }: { groups: { scenario: string; s: number; c: num
   );
 }
 
-const Th = ({ children, onClick }: any) => (
+const Th = ({ children, onClick, active }: any) => (
   <th
     onClick={onClick}
-    className="p-3 text-xs font-bold uppercase cursor-pointer select-none hover:text-cyan-400"
+    className={`p-3 text-xs font-bold uppercase cursor-pointer select-none transition-colors ${
+      active ? 'text-cyan-400' : 'hover:text-cyan-400'
+    }`}
   >
     {children}
+    {active && <span className="ml-1">↓</span>}
   </th>
 );
 
