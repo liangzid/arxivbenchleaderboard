@@ -1,0 +1,4112 @@
+{
+    "EleutherAI/gpt-j-6B": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.1048780487804878,
+	    "std": 0.015150318019731046
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.27,
+	    "std": 0.0446196043338474
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.3,
+	    "std": 0.046056618647183814
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.22,
+	    "std": 0.0416333199893227
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.32142857142857145,
+	    "std": 0.0443280405529152
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.16587677725118483,
+	    "std": 0.012811326913919247
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.20175438596491227,
+	    "std": 0.037752050135836386
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.3277310924369748,
+	    "std": 0.03048991141767323
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.2923076923076923,
+	    "std": 0.023060438380857744
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.1001031991744066,
+	    "std": 0.009646786210097213
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.3448275862068966,
+	    "std": 0.039609335494512087
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.07327905255366396,
+	    "std": 0.007092470342788471
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.29,
+	    "std": 0.04560480215720683
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.3,
+	    "std": 0.046056618647183814
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.2619047619047619,
+	    "std": 0.022644212615525218
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.25396825396825395,
+	    "std": 0.03893259610604674
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.25925925925925924,
+	    "std": 0.02671924078371217
+	},
+	"gsm8k": {
+	    "acc": 0.04245640636846096,
+	    "std": 0.005553837749990045
+	},
+	"gsm_plus": {
+	    "acc": 0.024829416224412433,
+	    "std": 0.00151487479246536
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.11624326404926867,
+	    "std": 0.008896371709498207
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.2894736842105263,
+	    "std": 0.03690677986137283
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.18627450980392157,
+	    "std": 0.03873958714149353
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.30638297872340425,
+	    "std": 0.03013590647851756
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.2119205298013245,
+	    "std": 0.03336767086567977
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.1589958158995816,
+	    "std": 0.013665811152278304
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.24444444444444444,
+	    "std": 0.037125378336148665
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.24150943396226415,
+	    "std": 0.026341480371118355
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.22916666666666666,
+	    "std": 0.035146974678623884
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.2254335260115607,
+	    "std": 0.03186209851641144
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.25483870967741934,
+	    "std": 0.02479011845933221
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.09632446134347275,
+	    "std": 0.01051021134423373
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.32,
+	    "std": 0.046882617226215034
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.19444444444444445,
+	    "std": 0.026991454502036726
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.07420494699646643,
+	    "std": 0.007793679728569131
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.12836185819070906,
+	    "std": 0.011702403876565485
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.13123359580052493,
+	    "std": 0.017321369455841562
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.11807447774750227,
+	    "std": 0.00972965922285408
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.1341991341991342,
+	    "std": 0.011219745719880873
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.15430861723446893,
+	    "std": 0.016187745618093215
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.15664160401002505,
+	    "std": 0.0128745034087365
+	},
+	"mmlu_other": {
+	    "acc": 0.28934663662697135,
+	    "std": 0.008106934495307753
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.2723431914202145,
+	    "std": 0.008008884188648606
+	},
+	"mmlu_humanities": {
+	    "acc": 0.259086078639745,
+	    "std": 0.0063844230090990715
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.25,
+	    "std": 0.04351941398892446
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.10303650631183896,
+	    "std": 0.005616284972024968
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.026083298275136727,
+	    "std": 0.0032697830827662614
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.21446620341124448,
+	    "std": 0.007295835142621698
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.12206572769953052,
+	    "std": 0.011221814716156903
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.03346720214190094,
+	    "std": 0.00658489095615226
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.2043132803632236,
+	    "std": 0.013591832600635019
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.07973421926910298,
+	    "std": 0.005902687975049447
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.0210016155088853,
+	    "std": 0.004076922815087368
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.13704581358609794,
+	    "std": 0.006835663635583973
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.12463537523203394,
+	    "std": 0.005379531856038564
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.035387431360585725,
+	    "std": 0.0032274740381853027
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.21906438631790745,
+	    "std": 0.006560318694610627
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.11698880976602238,
+	    "std": 0.0072506006825145556
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.04588394062078273,
+	    "std": 0.005436926077118982
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.18122372723026622,
+	    "std": 0.008326898422902821
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.0967834577828834,
+	    "std": 0.0050112318568881625
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.03464285714285714,
+	    "std": 0.0034566022587739407
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.19897408207343412,
+	    "std": 0.006560616971055795
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.11986531986531987,
+	    "std": 0.008431491195087947
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.028831562974203338,
+	    "std": 0.0046109295358980505
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.20967741935483872,
+	    "std": 0.010343137967428207
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.09670079635949944,
+	    "std": 0.009974326516444507
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.02356020942408377,
+	    "std": 0.005490982236240809
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.19586507072905332,
+	    "std": 0.013098501668764214
+	}
+    },
+    "microsoft/phi-1": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.04878048780487805,
+	    "std": 0.010651279732379518
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.18,
+	    "std": 0.03861229196653694
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.22,
+	    "std": 0.04163331998932269
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.17,
+	    "std": 0.0377525168068637
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.25,
+	    "std": 0.04109974682633932
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.10308056872037914,
+	    "std": 0.010472523223760171
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.21052631578947367,
+	    "std": 0.0383515395439942
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.20588235294117646,
+	    "std": 0.02626502460827589
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.2564102564102564,
+	    "std": 0.022139081103971527
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.09597523219814241,
+	    "std": 0.009467429322574824
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.2413793103448276,
+	    "std": 0.03565998174135302
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.06661732050333087,
+	    "std": 0.006786667382246561
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.24,
+	    "std": 0.042923469599092816
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.24,
+	    "std": 0.042923469599092816
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.2671957671957672,
+	    "std": 0.022789673145776564
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.24603174603174602,
+	    "std": 0.03852273364924315
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.25555555555555554,
+	    "std": 0.026593939101844065
+	},
+	"gsm8k": {
+	    "acc": 0.018953752843062926,
+	    "std": 0.003756078341031475
+	},
+	"gsm_plus": {
+	    "acc": 0.013078089461713419,
+	    "std": 0.001106029564166424
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.100846805234796,
+	    "std": 0.008358157908754943
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.17105263157894737,
+	    "std": 0.030643607071677098
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.22549019607843138,
+	    "std": 0.041583075330832865
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.30638297872340425,
+	    "std": 0.03013590647851756
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.2052980132450331,
+	    "std": 0.03297986648473836
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.08507670850767085,
+	    "std": 0.010426562968267428
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.26666666666666666,
+	    "std": 0.038201699145179055
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.2679245283018868,
+	    "std": 0.027257260322494845
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.3402777777777778,
+	    "std": 0.03962135573486219
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.2138728323699422,
+	    "std": 0.03126511206173044
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.24838709677419354,
+	    "std": 0.02458002892148101
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.08491761723700887,
+	    "std": 0.009930380468209562
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.24,
+	    "std": 0.04292346959909282
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.18055555555555555,
+	    "std": 0.026232878971491666
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.06978798586572438,
+	    "std": 0.007576175072607266
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.09902200488997555,
+	    "std": 0.01044989487320958
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.11286089238845144,
+	    "std": 0.01623214090346143
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.07811080835603997,
+	    "std": 0.008090932633847638
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.10714285714285714,
+	    "std": 0.01018056192301717
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.11823647294589178,
+	    "std": 0.01446895370466176
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.08897243107769423,
+	    "std": 0.010084731218347905
+	},
+	"mmlu_other": {
+	    "acc": 0.26874798841326036,
+	    "std": 0.007948629666854383
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.24764380890477738,
+	    "std": 0.00778484109117101
+	},
+	"mmlu_humanities": {
+	    "acc": 0.25270988310308184,
+	    "std": 0.006340443781346647
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.22,
+	    "std": 0.041633319989322695
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.05595359945411123,
+	    "std": 0.004245969546906438
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.01851072780816155,
+	    "std": 0.0027652303047160202
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.04895767530006317,
+	    "std": 0.0038355130005846673
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.06924882629107981,
+	    "std": 0.008702784401763752
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.018741633199464525,
+	    "std": 0.004965077017683573
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.04426787741203178,
+	    "std": 0.006933796713583515
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.07214048410061699,
+	    "std": 0.0056376934295234524
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.016962843295638127,
+	    "std": 0.0036715499583937425
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.0315955766192733,
+	    "std": 0.003476926039032825
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.06337841421373641,
+	    "std": 0.003968095268489682
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.016168395363026236,
+	    "std": 0.0022032086315546154
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.044517102615694165,
+	    "std": 0.0032711942769551765
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.07477110885045778,
+	    "std": 0.00593349015424728
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.016194331983805668,
+	    "std": 0.0032798852513858147
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.032227930873423634,
+	    "std": 0.0038176478632743487
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.07581849511774842,
+	    "std": 0.004486567487973162
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.019285714285714285,
+	    "std": 0.0025994870952446712
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.040766738660907124,
+	    "std": 0.003249662384252897
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.05117845117845118,
+	    "std": 0.005720301089175813
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.012139605462822459,
+	    "std": 0.003017568834675361
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.05419354838709677,
+	    "std": 0.005752401901026289
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.06825938566552901,
+	    "std": 0.008511016707297986
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.01832460732984293,
+	    "std": 0.004855556611546114
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.04787812840043525,
+	    "std": 0.007046825427601296
+	}
+    },
+    "microsoft/phi-1_5": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.07804878048780488,
+	    "std": 0.013264026422963555
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.37,
+	    "std": 0.048523658709391
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.5,
+	    "std": 0.050251890762960605
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.49,
+	    "std": 0.05024183937956911
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.39285714285714285,
+	    "std": 0.04635550135609976
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.25118483412322273,
+	    "std": 0.01493723575950011
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.2719298245614035,
+	    "std": 0.04185774424022056
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.4327731092436975,
+	    "std": 0.03218358107742613
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.4128205128205128,
+	    "std": 0.024962683564331806
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.07636738906088751,
+	    "std": 0.008536226336689342
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.4689655172413793,
+	    "std": 0.04158632762097828
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.0695780903034789,
+	    "std": 0.006924833446490208
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.3,
+	    "std": 0.046056618647183814
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.38,
+	    "std": 0.04878317312145632
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.30952380952380953,
+	    "std": 0.023809523809523867
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.2777777777777778,
+	    "std": 0.040061680838488774
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.24444444444444444,
+	    "std": 0.02620276653465215
+	},
+	"gsm8k": {
+	    "acc": 0.31842304776345715,
+	    "std": 0.0128322257230754
+	},
+	"gsm_plus": {
+	    "acc": 0.1846095526914329,
+	    "std": 0.003777140006839179
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.09930715935334873,
+	    "std": 0.008301207861994736
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.3881578947368421,
+	    "std": 0.03965842097512744
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.30392156862745096,
+	    "std": 0.045766654032077636
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.3659574468085106,
+	    "std": 0.031489558297455304
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.31788079470198677,
+	    "std": 0.03802039760107903
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.26638772663877264,
+	    "std": 0.016520907091871977
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.4222222222222222,
+	    "std": 0.04266763404099582
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.4641509433962264,
+	    "std": 0.030693675018458006
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.3541666666666667,
+	    "std": 0.039994111357535424
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.3930635838150289,
+	    "std": 0.0372424959581773
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.47419354838709676,
+	    "std": 0.02840609505765332
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.10392902408111533,
+	    "std": 0.010871175856870042
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.5,
+	    "std": 0.050251890762960605
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.26851851851851855,
+	    "std": 0.030225226160012393
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.060954063604240286,
+	    "std": 0.007113993242445055
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.14058679706601468,
+	    "std": 0.012160802933047539
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.13910761154855644,
+	    "std": 0.017752441192974873
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.12170753860127158,
+	    "std": 0.009857844760249234
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.1525974025974026,
+	    "std": 0.011836345009462254
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.13827655310621242,
+	    "std": 0.015468334539576873
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.2706766917293233,
+	    "std": 0.01573824551050074
+	},
+	"mmlu_other": {
+	    "acc": 0.45799806887672995,
+	    "std": 0.008744147267276426
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.4881377965550861,
+	    "std": 0.008864313173593426
+	},
+	"mmlu_humanities": {
+	    "acc": 0.383634431455898,
+	    "std": 0.006893915083438308
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.27,
+	    "std": 0.0446196043338474
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.22722620266120777,
+	    "std": 0.007741437094527076
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.10012620950778292,
+	    "std": 0.006158025329478214
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.019898926089703096,
+	    "std": 0.002482352170868312
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.20892018779342722,
+	    "std": 0.013935917754962378
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.11646586345381527,
+	    "std": 0.011744690552384843
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.02043132803632236,
+	    "std": 0.0047689679738095745
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.2515424774560987,
+	    "std": 0.009454967980461746
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.10420032310177706,
+	    "std": 0.008686706211666754
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.02093206951026856,
+	    "std": 0.002845551330944424
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.21400159108989658,
+	    "std": 0.006679572368753327
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.10799267846247712,
+	    "std": 0.005421795655470988
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.02112676056338028,
+	    "std": 0.002280925584578499
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.23906408952187183,
+	    "std": 0.009621658419918635
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.08974358974358974,
+	    "std": 0.007426874109850435
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.025688930406352173,
+	    "std": 0.0034199120924462666
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.22458357265939116,
+	    "std": 0.007073013388941898
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.13535714285714287,
+	    "std": 0.006466324858500932
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.015928725701943845,
+	    "std": 0.002057438858930783
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.2356902356902357,
+	    "std": 0.011017639265905044
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.10698027314112292,
+	    "std": 0.008517055749980301
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.02838709677419355,
+	    "std": 0.004219698457809507
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.2445961319681456,
+	    "std": 0.014506650120399318
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.11780104712041885,
+	    "std": 0.011670664257754766
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.014145810663764961,
+	    "std": 0.0038976148653775823
+	}
+    },
+    "microsoft/phi-2": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.23170731707317074,
+	    "std": 0.020862750716339813
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.46,
+	    "std": 0.05009082659620332
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.64,
+	    "std": 0.04824181513244218
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.71,
+	    "std": 0.045604802157206845
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.49107142857142855,
+	    "std": 0.04745033255489123
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.41113744075829384,
+	    "std": 0.01694676073370293
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.2982456140350877,
+	    "std": 0.04303684033537314
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.5840336134453782,
+	    "std": 0.032016501007396114
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.5769230769230769,
+	    "std": 0.02504919787604235
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.1434468524251806,
+	    "std": 0.01126639544287784
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.5379310344827586,
+	    "std": 0.04154659671707548
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.24278312361213916,
+	    "std": 0.01166950690828133
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.31,
+	    "std": 0.04648231987117316
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.43,
+	    "std": 0.049756985195624284
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.3835978835978836,
+	    "std": 0.025043757318520196
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.3412698412698413,
+	    "std": 0.04240799327574924
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.2851851851851852,
+	    "std": 0.027528599210340496
+	},
+	"gsm8k": {
+	    "acc": 0.5686125852918877,
+	    "std": 0.013642195352511568
+	},
+	"gsm_plus": {
+	    "acc": 0.36059514783927216,
+	    "std": 0.0046746714372821315
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.20323325635103925,
+	    "std": 0.011169291900533309
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.5592105263157895,
+	    "std": 0.04040311062490436
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.30392156862745096,
+	    "std": 0.045766654032077636
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.4723404255319149,
+	    "std": 0.03263597118409769
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.3973509933774834,
+	    "std": 0.0399552400768168
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.4881450488145049,
+	    "std": 0.018680624358995233
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.45185185185185184,
+	    "std": 0.04299268905480864
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.6264150943396226,
+	    "std": 0.02977308271331987
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.625,
+	    "std": 0.04048439222695598
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.5260115606936416,
+	    "std": 0.03807301726504511
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.6870967741935484,
+	    "std": 0.026377567028645854
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.24968314321926488,
+	    "std": 0.015418916426611355
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.58,
+	    "std": 0.049604496374885836
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.4351851851851852,
+	    "std": 0.033812000056435254
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.15547703180212014,
+	    "std": 0.010774758645029556
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.2860635696821516,
+	    "std": 0.01581066075830685
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.2755905511811024,
+	    "std": 0.02292093959224998
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.17892824704813806,
+	    "std": 0.01155669540122705
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.3041125541125541,
+	    "std": 0.015142090052673174
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.27054108216432865,
+	    "std": 0.019906841522677663
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.43859649122807015,
+	    "std": 0.017576847192477926
+	},
+	"mmlu_other": {
+	    "acc": 0.6021886063727068,
+	    "std": 0.008550584518175516
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.6434839129021774,
+	    "std": 0.008406217926109629
+	},
+	"mmlu_humanities": {
+	    "acc": 0.4907545164718385,
+	    "std": 0.006808027885327603
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.36,
+	    "std": 0.04824181513244218
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.23166154895939953,
+	    "std": 0.007794162418974369
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.16870004206983594,
+	    "std": 0.007682689062239233
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.2368919772583702,
+	    "std": 0.007557555218116314
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.22769953051643194,
+	    "std": 0.0143750524167655
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.19143239625167335,
+	    "std": 0.014404443103501354
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.23269012485811577,
+	    "std": 0.0142440350614353
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.24774560987185573,
+	    "std": 0.009407108773188183
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.18982229402261713,
+	    "std": 0.011150103613955584
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.2156398104265403,
+	    "std": 0.008174781802656208
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.2309732166534076,
+	    "std": 0.006864056804850177
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.18120805369127516,
+	    "std": 0.006728795171347539
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.22811871227364186,
+	    "std": 0.0066555989648524015
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.2441505595116989,
+	    "std": 0.009690925001260947
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.19095816464237517,
+	    "std": 0.010213558398085836
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.2283979448855675,
+	    "std": 0.009074775650727514
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.236358414704193,
+	    "std": 0.00720075952980036
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.18214285714285713,
+	    "std": 0.007295303239170176
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.2238120950323974,
+	    "std": 0.006849334175840718
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.24242424242424243,
+	    "std": 0.011124592397187105
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.15705614567526555,
+	    "std": 0.010026143229042436
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.25225806451612903,
+	    "std": 0.011035008947338977
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.24800910125142206,
+	    "std": 0.014574472446481966
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.193717277486911,
+	    "std": 0.014307560342310158
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.24591947769314473,
+	    "std": 0.014212942036525424
+	}
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.424390243902439,
+	    "std": 0.024439094736658094
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.6,
+	    "std": 0.04923659639173309
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.84,
+	    "std": 0.03684529491774709
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.79,
+	    "std": 0.040936018074033256
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.5089285714285714,
+	    "std": 0.04745033255489123
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.6149289099526066,
+	    "std": 0.016759811335068226
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.5964912280701754,
+	    "std": 0.04615186962583707
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.8739495798319328,
+	    "std": 0.021559623121213914
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.7512820512820513,
+	    "std": 0.0219169577092138
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.22703818369453044,
+	    "std": 0.013464517451650755
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.6068965517241379,
+	    "std": 0.040703290137070705
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.40562546262028126,
+	    "std": 0.013363672335556697
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.49,
+	    "std": 0.05024183937956912
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.45,
+	    "std": 0.049999999999999996
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.5317460317460317,
+	    "std": 0.0256993528321318
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.6111111111111112,
+	    "std": 0.04360314860077459
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.362962962962963,
+	    "std": 0.02931820364520686
+	},
+	"gsm8k": {
+	    "acc": 0.799090219863533,
+	    "std": 0.011036738221872353
+	},
+	"gsm_plus": {
+	    "acc": 0.5919257012888552,
+	    "std": 0.004784718683729887
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.3741339491916859,
+	    "std": 0.013431264760884644
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.8092105263157895,
+	    "std": 0.031975658210325
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.43137254901960786,
+	    "std": 0.04928099597287534
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.7404255319148936,
+	    "std": 0.028659179374292323
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.5695364238410596,
+	    "std": 0.04042809961395634
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.6875871687587168,
+	    "std": 0.017320953747153176
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.6074074074074074,
+	    "std": 0.04218506215368879
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7735849056603774,
+	    "std": 0.025757559893106734
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.8402777777777778,
+	    "std": 0.03063557897209328
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.653179190751445,
+	    "std": 0.03629146670159663
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.864516129032258,
+	    "std": 0.019469334586486906
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.45754119138149557,
+	    "std": 0.01774742597947168
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.78,
+	    "std": 0.04163331998932264
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.6342592592592593,
+	    "std": 0.032847388576472056
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.284452296819788,
+	    "std": 0.013415062982081255
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.5232273838630807,
+	    "std": 0.017473900405931764
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.4146981627296588,
+	    "std": 0.025273430846095745
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.3060853769300636,
+	    "std": 0.013895621251434332
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.5032467532467533,
+	    "std": 0.016457353488631914
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.44889779559118237,
+	    "std": 0.022288207333783817
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.6516290726817042,
+	    "std": 0.016876874376786852
+	},
+	"mmlu_other": {
+	    "acc": 0.7347924042484711,
+	    "std": 0.007631109087713977
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8053298667533312,
+	    "std": 0.00700828197042455
+	},
+	"mmlu_humanities": {
+	    "acc": 0.6563230605738576,
+	    "std": 0.00667538824874828
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.54,
+	    "std": 0.05009082659620333
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.06311838962811327,
+	    "std": 0.004492483617199713
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.2191838451830038,
+	    "std": 0.008487024340266273
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.11876184459886292,
+	    "std": 0.005750402660984432
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.04812206572769953,
+	    "std": 0.007336653030792709
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.21954484605087016,
+	    "std": 0.01515535751559265
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.13280363223609534,
+	    "std": 0.011439903622299259
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.05268153773137162,
+	    "std": 0.004867971633261266
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.172859450726979,
+	    "std": 0.01075106210170652
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.12322274881516587,
+	    "std": 0.006533471640335485
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.06443914081145585,
+	    "std": 0.003998896994571586
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.22330689444783405,
+	    "std": 0.007275076597501414
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.11896378269617706,
+	    "std": 0.005134943824052324
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.0335707019328586,
+	    "std": 0.004063347615522967
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.18960863697705804,
+	    "std": 0.010185888802455707
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.1279775805698272,
+	    "std": 0.0072214413168150875
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.06662837449741528,
+	    "std": 0.004226733777800196
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.2057142857142857,
+	    "std": 0.007640453775352587
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.1236501079913607,
+	    "std": 0.005409525379854823
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.0531986531986532,
+	    "std": 0.005825896995851245
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.19499241274658574,
+	    "std": 0.010917317880424783
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.12903225806451613,
+	    "std": 0.00851774187741737
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.051194539249146756,
+	    "std": 0.007437948194815808
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.1950261780104712,
+	    "std": 0.01434415813983611
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.12404787812840043,
+	    "std": 0.010879614667632723
+	}
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.44878048780487806,
+	    "std": 0.02459334602847914
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.57,
+	    "std": 0.04975698519562427
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.8,
+	    "std": 0.04020151261036846
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.68,
+	    "std": 0.04688261722621504
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.49107142857142855,
+	    "std": 0.04745033255489123
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.6184834123222749,
+	    "std": 0.01673042422966234
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.5789473684210527,
+	    "std": 0.046446020912223177
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.8613445378151261,
+	    "std": 0.02244826447683259
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.7435897435897436,
+	    "std": 0.022139081103971545
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.23632610939112486,
+	    "std": 0.013654385039124757
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.593103448275862,
+	    "std": 0.04093793981266236
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.4204293116210215,
+	    "std": 0.013434849805522928
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.45,
+	    "std": 0.049999999999999996
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.38,
+	    "std": 0.04878317312145633
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.5291005291005291,
+	    "std": 0.025707658614154957
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.5952380952380952,
+	    "std": 0.04390259265377562
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.36666666666666664,
+	    "std": 0.02938162072646507
+	},
+	"gsm8k": {
+	    "acc": 0.7907505686125853,
+	    "std": 0.011204544210483803
+	},
+	"gsm_plus": {
+	    "acc": 0.59486353297953,
+	    "std": 0.004779280603696285
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.4103156274056967,
+	    "std": 0.01365310694341375
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.7828947368421053,
+	    "std": 0.03355045304882924
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.43137254901960786,
+	    "std": 0.04928099597287534
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.6851063829787234,
+	    "std": 0.03036358219723816
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.5496688741721855,
+	    "std": 0.04062290018683775
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.691771269177127,
+	    "std": 0.017256841421981025
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.6518518518518519,
+	    "std": 0.041153246103369526
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7622641509433963,
+	    "std": 0.02619980880756192
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.8333333333333334,
+	    "std": 0.031164899666948603
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.653179190751445,
+	    "std": 0.03629146670159663
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.8354838709677419,
+	    "std": 0.021090847745939334
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.4816223067173637,
+	    "std": 0.017799726955272245
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.74,
+	    "std": 0.044084400227680794
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.6203703703703703,
+	    "std": 0.03309682581119035
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.284452296819788,
+	    "std": 0.01341506298208125
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.5232273838630807,
+	    "std": 0.017473900405931764
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.3989501312335958,
+	    "std": 0.025120180816809203
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.3033605812897366,
+	    "std": 0.013860766704796867
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.5064935064935064,
+	    "std": 0.01645631250988474
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.43887775551102204,
+	    "std": 0.022237494623400394
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.6553884711779449,
+	    "std": 0.016833915362456174
+	},
+	"mmlu_other": {
+	    "acc": 0.7225619568715803,
+	    "std": 0.007721261930618356
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.7926551836204095,
+	    "std": 0.007177592908663512
+	},
+	"mmlu_humanities": {
+	    "acc": 0.6480340063761956,
+	    "std": 0.00671099350554119
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.51,
+	    "std": 0.050241839379569095
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.19754350051177072,
+	    "std": 0.0073554341527799745
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.27639882204459404,
+	    "std": 0.009174755687555125
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.04042956411876184,
+	    "std": 0.003501072481313333
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.20305164319248825,
+	    "std": 0.013789660178446633
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.2784471218206158,
+	    "std": 0.016411037373717192
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.043132803632236094,
+	    "std": 0.006848387740179371
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.19174181300427148,
+	    "std": 0.008578360386919816
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.27059773828756056,
+	    "std": 0.012631670374901321
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.05568720379146919,
+	    "std": 0.004558160050326426
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.19384778573322725,
+	    "std": 0.006438256467352271
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.28767541183648565,
+	    "std": 0.007907735216035671
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.03873239436619718,
+	    "std": 0.003060488553627115
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.1790437436419125,
+	    "std": 0.008648848825562307
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.29959514170040485,
+	    "std": 0.011903219134884088
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.052779075198505374,
+	    "std": 0.004833365558906649
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.19126938541068353,
+	    "std": 0.00666611284814856
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.2732142857142857,
+	    "std": 0.008422740951076797
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.04049676025917927,
+	    "std": 0.003239339801799564
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.18585858585858586,
+	    "std": 0.010097742399376726
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.26327769347496205,
+	    "std": 0.012135734165298645
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.045806451612903226,
+	    "std": 0.005311972943727973
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.19340159271899887,
+	    "std": 0.013329425916988522
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.24476439790575916,
+	    "std": 0.015565141828321595
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.04026115342763874,
+	    "std": 0.006487812686543985
+	}
+    },
+    "Qwen/Qwen2-7B-Instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.44878048780487806,
+	    "std": 0.024593346028479127
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.63,
+	    "std": 0.048523658709391
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.72,
+	    "std": 0.04512608598542129
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.79,
+	    "std": 0.040936018074033256
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.4732142857142857,
+	    "std": 0.047389751192741546
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.5770142180094787,
+	    "std": 0.017015407511807443
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.5964912280701754,
+	    "std": 0.04615186962583707
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.8319327731092437,
+	    "std": 0.02428910211569227
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.764102564102564,
+	    "std": 0.021525965407408726
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.24458204334365324,
+	    "std": 0.013815552509175266
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.7103448275862069,
+	    "std": 0.03780019230438014
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.36787564766839376,
+	    "std": 0.013124564346094563
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.52,
+	    "std": 0.050211673156867795
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.39,
+	    "std": 0.04902071300001974
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.6349206349206349,
+	    "std": 0.02479606060269995
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.5079365079365079,
+	    "std": 0.044715725362943486
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.5,
+	    "std": 0.030485538042484616
+	},
+	"gsm8k": {
+	    "acc": 0.7323730098559514,
+	    "std": 0.012194764427053346
+	},
+	"gsm_plus": {
+	    "acc": 0.5395185746777862,
+	    "std": 0.004852465400009512
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.3187066974595843,
+	    "std": 0.012933775209961343
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.7763157894736842,
+	    "std": 0.033911609343436025
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.4019607843137255,
+	    "std": 0.048786087144669955
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.7106382978723405,
+	    "std": 0.02964400657700962
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.5033112582781457,
+	    "std": 0.04082393379449654
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.6345885634588564,
+	    "std": 0.01799619445285669
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.6074074074074074,
+	    "std": 0.04218506215368879
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7811320754716982,
+	    "std": 0.025447863825108614
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.7916666666666666,
+	    "std": 0.033961162058453336
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.6936416184971098,
+	    "std": 0.03514942551267437
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.8354838709677419,
+	    "std": 0.02109084774593933
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.5019011406844106,
+	    "std": 0.017811633741126733
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.78,
+	    "std": 0.04163331998932263
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.6620370370370371,
+	    "std": 0.03225941352631296
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.2314487632508834,
+	    "std": 0.012541010823187307
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.45843520782396086,
+	    "std": 0.017432238738363134
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.4435695538057743,
+	    "std": 0.0254855792424244
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.298819255222525,
+	    "std": 0.013801393471503236
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.461038961038961,
+	    "std": 0.016407660045611158
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.4168336673346693,
+	    "std": 0.022093419812651727
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.6115288220551378,
+	    "std": 0.017264686866868943
+	},
+	"mmlu_other": {
+	    "acc": 0.7576440296105568,
+	    "std": 0.007432216906576598
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8020799480013,
+	    "std": 0.007068407615868943
+	},
+	"mmlu_humanities": {
+	    "acc": 0.6365568544102019,
+	    "std": 0.006605836193973175
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.51,
+	    "std": 0.05024183937956911
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.2661207778915046,
+	    "std": 0.008164279758897436
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.24316365166175852,
+	    "std": 0.008800900296680148
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.3417561591914087,
+	    "std": 0.00843072105192301
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.2793427230046948,
+	    "std": 0.01538042333568044
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.22757697456492637,
+	    "std": 0.015350493840367768
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.318955732122588,
+	    "std": 0.015711278992434095
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.25723777883246324,
+	    "std": 0.00952495856657996
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.2738287560581583,
+	    "std": 0.012678684663518066
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.30213270142180093,
+	    "std": 0.00912723470367557
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.2760540970564837,
+	    "std": 0.007280806360645884
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.2565588773642465,
+	    "std": 0.00762919284082248
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.33425553319919515,
+	    "std": 0.007482117410004194
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.2644964394710071,
+	    "std": 0.009949952957505366
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.25371120107962214,
+	    "std": 0.011306957324920569
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.3250817375058384,
+	    "std": 0.010125465293243645
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.28345778288340034,
+	    "std": 0.0076385877648388
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.25214285714285717,
+	    "std": 0.008207883973308171
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.3285637149028078,
+	    "std": 0.007718543351192732
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.27003367003367,
+	    "std": 0.011525066057479204
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.23823975720789076,
+	    "std": 0.011738791332109498
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.32193548387096776,
+	    "std": 0.011871189119633105
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.2787258248009101,
+	    "std": 0.015131832946662363
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.2369109947643979,
+	    "std": 0.015392811011349256
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.338411316648531,
+	    "std": 0.015616910887828175
+	}
+    },
+    "Qwen/Qwen2.5-7B-Instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.4609756097560976,
+	    "std": 0.024647991083753092
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.67,
+	    "std": 0.04725815626252607
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.78,
+	    "std": 0.04163331998932261
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.81,
+	    "std": 0.039427724440366234
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.5267857142857143,
+	    "std": 0.047389751192741546
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.6327014218009479,
+	    "std": 0.016603331593102705
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.6666666666666666,
+	    "std": 0.044346007015849245
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.865546218487395,
+	    "std": 0.022159373072744442
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.7897435897435897,
+	    "std": 0.02066059748502692
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.18163054695562436,
+	    "std": 0.012391716581781845
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.7034482758620689,
+	    "std": 0.03806142687309992
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.38712065136935603,
+	    "std": 0.013256954922486089
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.58,
+	    "std": 0.049604496374885836
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.43,
+	    "std": 0.04975698519562428
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.671957671957672,
+	    "std": 0.024180497164376886
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.5714285714285714,
+	    "std": 0.04426266681379909
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.5481481481481482,
+	    "std": 0.030343862998512626
+	},
+	"gsm8k": {
+	    "acc": 0.8203184230477635,
+	    "std": 0.01057511996424223
+	},
+	"gsm_plus": {
+	    "acc": 0.6141015921152388,
+	    "std": 0.004739251907372302
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.32640492686682065,
+	    "std": 0.013014888670527741
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.8552631578947368,
+	    "std": 0.028631951845930415
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.5098039215686274,
+	    "std": 0.04974229460422817
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.7702127659574468,
+	    "std": 0.027501752944412414
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.5761589403973509,
+	    "std": 0.04034846678603395
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.704323570432357,
+	    "std": 0.01705445921166894
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.7333333333333333,
+	    "std": 0.038201699145179055
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7811320754716982,
+	    "std": 0.02544786382510862
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.8680555555555556,
+	    "std": 0.028300968382044423
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.6705202312138728,
+	    "std": 0.03583901754736411
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.867741935483871,
+	    "std": 0.019272015434846485
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.46261089987325726,
+	    "std": 0.017761892962571565
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.78,
+	    "std": 0.04163331998932263
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.6805555555555556,
+	    "std": 0.03179876342176852
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.1625441696113074,
+	    "std": 0.010970725555722838
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.5452322738386308,
+	    "std": 0.01742105963284651
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.5091863517060368,
+	    "std": 0.025645129369425316
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.29518619436875565,
+	    "std": 0.013752728820883893
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.525974025974026,
+	    "std": 0.016435479089062253
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.4729458917835671,
+	    "std": 0.022372713373033568
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.6591478696741855,
+	    "std": 0.016789790303689586
+	},
+	"mmlu_other": {
+	    "acc": 0.7640811071773415,
+	    "std": 0.007299741897765119
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8267793305167371,
+	    "std": 0.006709206388906746
+	},
+	"mmlu_humanities": {
+	    "acc": 0.6363443145589798,
+	    "std": 0.006563007552147111
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.51,
+	    "std": 0.05024183937956911
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.27567383145684066,
+	    "std": 0.008255265567669357
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.22465292385359698,
+	    "std": 0.008562111837342594
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.37776373973468097,
+	    "std": 0.008617889778033393
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.2652582159624413,
+	    "std": 0.015133417424553649
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.21954484605087016,
+	    "std": 0.015155357515592651
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.3439273552780931,
+	    "std": 0.01601282616478222
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.2861888941623161,
+	    "std": 0.009848925564118786
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.24798061389337642,
+	    "std": 0.01227830829178166
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.3412322274881517,
+	    "std": 0.009424213591703907
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.273667462211615,
+	    "std": 0.007261204318388648
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.24283099450884685,
+	    "std": 0.0074904904133504925
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.37298792756539234,
+	    "std": 0.007670378102836107
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.28331637843336727,
+	    "std": 0.010165255601691537
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.20445344129554655,
+	    "std": 0.010479787678636531
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.3773937412424101,
+	    "std": 0.01047845375697843
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.26680068925904654,
+	    "std": 0.0074963954082356895
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.23535714285714285,
+	    "std": 0.00801847095416268
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.37041036717062636,
+	    "std": 0.007935850809798892
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.28215488215488216,
+	    "std": 0.011682672699155155
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.2116843702579666,
+	    "std": 0.011256453397392206
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.3935483870967742,
+	    "std": 0.01241284799806425
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.2832764505119454,
+	    "std": 0.01520665927951939
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.22251308900523561,
+	    "std": 0.01505781841594868
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.3471164309031556,
+	    "std": 0.015712095666017657
+	}
+    },
+    "meta-llama/Llama-2-7b-chat-hf": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.15121951219512195,
+	    "std": 0.017714951024376698
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.32,
+	    "std": 0.046882617226215034
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.6,
+	    "std": 0.04923659639173309
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.4,
+	    "std": 0.049236596391733084
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.35714285714285715,
+	    "std": 0.04547960999764376
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.32109004739336494,
+	    "std": 0.01608072860824762
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.2982456140350877,
+	    "std": 0.04303684033537316
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.35714285714285715,
+	    "std": 0.031124619309328177
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.4025641025641026,
+	    "std": 0.024864995159767762
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.1393188854489164,
+	    "std": 0.01112982802684841
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.4482758620689655,
+	    "std": 0.04144311810878151
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.14433752775721687,
+	    "std": 0.009564758068929462
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.3,
+	    "std": 0.046056618647183814
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.31,
+	    "std": 0.04648231987117316
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.2804232804232804,
+	    "std": 0.02313528797432563
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.23809523809523808,
+	    "std": 0.03809523809523812
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.27037037037037037,
+	    "std": 0.02708037281514566
+	},
+	"gsm8k": {
+	    "acc": 0.2312357846853677,
+	    "std": 0.0116135875031666
+	},
+	"gsm_plus": {
+	    "acc": 0.1379833206974981,
+	    "std": 0.003357564151332105
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.16397228637413394,
+	    "std": 0.01027680739169152
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.4934210526315789,
+	    "std": 0.040685900502249704
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.19607843137254902,
+	    "std": 0.03950581861179963
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.4,
+	    "std": 0.03202563076101737
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.2781456953642384,
+	    "std": 0.036586032627637426
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.39609483960948394,
+	    "std": 0.018277948586508164
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.45185185185185184,
+	    "std": 0.04299268905480864
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.5509433962264151,
+	    "std": 0.030612730713641092
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.4513888888888889,
+	    "std": 0.04161402398403279
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.3815028901734104,
+	    "std": 0.037038511930995194
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.4935483870967742,
+	    "std": 0.02844163823354051
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.20278833967046894,
+	    "std": 0.014323369715443589
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.45,
+	    "std": 0.05
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.26851851851851855,
+	    "std": 0.030225226160012393
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.14045936395759717,
+	    "std": 0.010331830031014183
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.22860635696821516,
+	    "std": 0.01469166953200422
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.2204724409448819,
+	    "std": 0.02126674842940748
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.18710263396911897,
+	    "std": 0.011758758373343385
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.2510822510822511,
+	    "std": 0.014273294213571514
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.24048096192384769,
+	    "std": 0.01915115675284252
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.38471177944862156,
+	    "std": 0.017233674332360005
+	},
+	"mmlu_other": {
+	    "acc": 0.548760862568394,
+	    "std": 0.008634065047228766
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.5303867403314917,
+	    "std": 0.008743163742809318
+	},
+	"mmlu_humanities": {
+	    "acc": 0.43273113708820404,
+	    "std": 0.006923338688330521
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.25,
+	    "std": 0.04351941398892446
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.07471852610030706,
+	    "std": 0.004857549908322423
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.03155237694572991,
+	    "std": 0.0035861701511546136
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.13676563487049906,
+	    "std": 0.00610753544844557
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.08450704225352113,
+	    "std": 0.009534747022295877
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.018741633199464525,
+	    "std": 0.004965077017683575
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.16004540295119182,
+	    "std": 0.012359706893101915
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.10014238253440912,
+	    "std": 0.0065413392773698035
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.05411954765751212,
+	    "std": 0.006432952644332002
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.10781990521327015,
+	    "std": 0.006164951510342858
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.06788650225404402,
+	    "std": 0.004096900719831855
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.017693715680292862,
+	    "std": 0.002303004373476731
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.1443661971830986,
+	    "std": 0.0055745287370320045
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.06307222787385554,
+	    "std": 0.005483916894083289
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.019568151147098516,
+	    "std": 0.003599200771041407
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.1452592246613732,
+	    "std": 0.0076169689531805865
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.0778288340034463,
+	    "std": 0.004540712655143415
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.020714285714285713,
+	    "std": 0.0026920817347029203
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.15226781857451405,
+	    "std": 0.005904138572410434
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.07272727272727272,
+	    "std": 0.006741172551159473
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.012139605462822459,
+	    "std": 0.0030175688346753622
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.16709677419354838,
+	    "std": 0.009478848807957543
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.10352673492605233,
+	    "std": 0.010281291481854584
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.013089005235602094,
+	    "std": 0.004114622962068292
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.15669205658324264,
+	    "std": 0.01199762394718013
+	}
+    },
+    "meta-llama/Meta-Llama-3-8B": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.348780487804878,
+	    "std": 0.023565580300378104
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.5,
+	    "std": 0.050251890762960605
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.8,
+	    "std": 0.04020151261036846
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.65,
+	    "std": 0.047937248544110196
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.45535714285714285,
+	    "std": 0.047268355537191
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.44075829383886256,
+	    "std": 0.017099611181302928
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.38596491228070173,
+	    "std": 0.04579639422070434
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.680672268907563,
+	    "std": 0.030283995525884396
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.6282051282051282,
+	    "std": 0.024503472557110932
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.2631578947368421,
+	    "std": 0.014153300916506318
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.593103448275862,
+	    "std": 0.04093793981266236
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.29533678756476683,
+	    "std": 0.012416028155862803
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.29,
+	    "std": 0.04560480215720683
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.43,
+	    "std": 0.04975698519562428
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.42063492063492064,
+	    "std": 0.025424835086923996
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.42063492063492064,
+	    "std": 0.04415438226743744
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.4074074074074074,
+	    "std": 0.029958249250082114
+	},
+	"gsm8k": {
+	    "acc": 0.49962092494313876,
+	    "std": 0.013772480761626175
+	},
+	"gsm_plus": {
+	    "acc": 0.29890068233510236,
+	    "std": 0.004456628301731964
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.3010007698229407,
+	    "std": 0.012731653357595777
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.6907894736842105,
+	    "std": 0.037610708698674805
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.39215686274509803,
+	    "std": 0.048580835742663434
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.5276595744680851,
+	    "std": 0.03263597118409769
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.3973509933774834,
+	    "std": 0.03995524007681681
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.5620641562064156,
+	    "std": 0.018541364013722566
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.6888888888888889,
+	    "std": 0.03999262876617723
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7396226415094339,
+	    "std": 0.02700876609070805
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.7708333333333334,
+	    "std": 0.035146974678623884
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.6416184971098265,
+	    "std": 0.03656343653353158
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.7322580645161291,
+	    "std": 0.025189006660212374
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.302915082382763,
+	    "std": 0.016369679755239445
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.59,
+	    "std": 0.04943110704237101
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.5185185185185185,
+	    "std": 0.03407632093854051
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.21996466431095407,
+	    "std": 0.012316924974128883
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.42665036674816625,
+	    "std": 0.017303533691567348
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.3805774278215223,
+	    "std": 0.024907103682023025
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.2125340599455041,
+	    "std": 0.012334848390879661
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.4166666666666667,
+	    "std": 0.016227511501438294
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.3787575150300601,
+	    "std": 0.021736846174250833
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.5338345864661654,
+	    "std": 0.017670311985632486
+	},
+	"mmlu_other": {
+	    "acc": 0.7071129707112971,
+	    "std": 0.007775835837842536
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.7325316867078323,
+	    "std": 0.007789200260234035
+	},
+	"mmlu_humanities": {
+	    "acc": 0.5496280552603613,
+	    "std": 0.0066264946361665545
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.43,
+	    "std": 0.04975698519562428
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.22893210508358922,
+	    "std": 0.0077618608203445065
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.1817416912074043,
+	    "std": 0.007911325920055003
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.24857864813644978,
+	    "std": 0.007682221403719684
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.22769953051643194,
+	    "std": 0.01437505241676551
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.18206157965194109,
+	    "std": 0.014128629732048942
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.26106696935300794,
+	    "std": 0.014805980320689407
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.21689606074988135,
+	    "std": 0.008980620677842405
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.19224555735056542,
+	    "std": 0.011204254988802773
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.24052132701421802,
+	    "std": 0.008495491594141705
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.2137364094404667,
+	    "std": 0.006676558555365725
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.18578401464307503,
+	    "std": 0.006794159892881533
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.24723340040241448,
+	    "std": 0.006842505814271008
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.2299084435401831,
+	    "std": 0.00949221057727409
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.18218623481781376,
+	    "std": 0.0100301507202591
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.24614666043904718,
+	    "std": 0.009311797411086564
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.2234348075818495,
+	    "std": 0.007060124567129959
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.2042857142857143,
+	    "std": 0.007620722140285526
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.24325053995680346,
+	    "std": 0.007050600546844676
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.23636363636363636,
+	    "std": 0.011028505938716055
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.19044006069802732,
+	    "std": 0.010819589224836406
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.22774193548387098,
+	    "std": 0.010655578204526374
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.20477815699658702,
+	    "std": 0.013618795777198333
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.17539267015706805,
+	    "std": 0.013767879185399217
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.24918389553862894,
+	    "std": 0.014275963685629221
+	}
+    },
+    "meta-llama/Llama-3.1-8B-Instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.43902439024390244,
+	    "std": 0.024538875649248372
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.57,
+	    "std": 0.049756985195624284
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.75,
+	    "std": 0.04351941398892446
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.72,
+	    "std": 0.04512608598542128
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.4732142857142857,
+	    "std": 0.047389751192741546
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.5272511848341233,
+	    "std": 0.017195318300091068
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.49122807017543857,
+	    "std": 0.04702880432049615
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.7941176470588235,
+	    "std": 0.02626502460827588
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.6820512820512821,
+	    "std": 0.023610884308927865
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.239422084623323,
+	    "std": 0.013715646416779179
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.6482758620689655,
+	    "std": 0.039792366374974096
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.3908216136195411,
+	    "std": 0.013279895134217812
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.35,
+	    "std": 0.047937248544110196
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.34,
+	    "std": 0.04760952285695236
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.4894179894179894,
+	    "std": 0.02574554227604548
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.46825396825396826,
+	    "std": 0.04463112720677171
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.4185185185185185,
+	    "std": 0.030078013075022062
+	},
+	"gsm8k": {
+	    "acc": 0.7793783169067475,
+	    "std": 0.011421957796750176
+	},
+	"gsm_plus": {
+	    "acc": 0.5674753601213041,
+	    "std": 0.004823165003381284
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.35719784449576597,
+	    "std": 0.013300125246561661
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.75,
+	    "std": 0.03523807393012047
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.46078431372549017,
+	    "std": 0.04959859966384181
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.5914893617021276,
+	    "std": 0.032134180267015755
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.45695364238410596,
+	    "std": 0.040673251742474416
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.6122733612273361,
+	    "std": 0.018208702120229122
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.6888888888888889,
+	    "std": 0.03999262876617722
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7924528301886793,
+	    "std": 0.024959918028911274
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.7986111111111112,
+	    "std": 0.03353647469713839
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.6994219653179191,
+	    "std": 0.03496101481191181
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.8096774193548387,
+	    "std": 0.022331707611823067
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.4461343472750317,
+	    "std": 0.017708098876157177
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.69,
+	    "std": 0.04648231987117316
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.5370370370370371,
+	    "std": 0.03400603625538271
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.2597173144876325,
+	    "std": 0.013038209203806663
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.49877750611246946,
+	    "std": 0.01749273342782252
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.4225721784776903,
+	    "std": 0.025340052156631713
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.2742960944595822,
+	    "std": 0.013452196408150445
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.4642857142857143,
+	    "std": 0.016415662849175765
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.4288577154308617,
+	    "std": 0.02217757719892382
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.5939849624060151,
+	    "std": 0.017395207911101097
+	},
+	"mmlu_other": {
+	    "acc": 0.7438043128419698,
+	    "std": 0.00753392722891891
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.7692557686057848,
+	    "std": 0.007438138068262866
+	},
+	"mmlu_humanities": {
+	    "acc": 0.6442082890541977,
+	    "std": 0.0067227312768480384
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.47,
+	    "std": 0.05016135580465919
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.28488570453770046,
+	    "std": 0.0083385252517853
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.26209507782919644,
+	    "std": 0.009022074686718895
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.2946936197094125,
+	    "std": 0.008103775770684907
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.25234741784037557,
+	    "std": 0.0148896528142173
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.23560910307898258,
+	    "std": 0.015537615587896268
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.29284903518728717,
+	    "std": 0.015340398158322489
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.2861888941623161,
+	    "std": 0.009848925564118807
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.2520193861066236,
+	    "std": 0.0123446077805458
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.26579778830963663,
+	    "std": 0.008780868090619847
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.25483956510209493,
+	    "std": 0.007097209844423041
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.2736424649176327,
+	    "std": 0.007788050326933952
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.2965291750503018,
+	    "std": 0.007244162662296155
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.2736520854526958,
+	    "std": 0.010057509482338082
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.2550607287449393,
+	    "std": 0.011326734056510952
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.31480616534329753,
+	    "std": 0.010039716541153335
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.2682366456059736,
+	    "std": 0.007509177523050706
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.25035714285714283,
+	    "std": 0.00818852628988423
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.2985961123110151,
+	    "std": 0.00752054480202707
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.2612794612794613,
+	    "std": 0.011404487471895064
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.24506828528072838,
+	    "std": 0.011852350984723066
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.28580645161290325,
+	    "std": 0.011479375612271173
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.24914675767918087,
+	    "std": 0.014596807886489815
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.22905759162303665,
+	    "std": 0.015213216444192209
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.2840043525571273,
+	    "std": 0.014883201050643315
+	}
+    },
+    "Qwen/Qwen2.5-72B-Instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.6536585365853659,
+	    "std": 0.023526973238526993
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.77,
+	    "std": 0.04229525846816506
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.88,
+	    "std": 0.03265986323710906
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.94,
+	    "std": 0.023868325657594183
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.7678571428571429,
+	    "std": 0.04007341809755806
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.7428909952606635,
+	    "std": 0.015052457282803853
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.7543859649122807,
+	    "std": 0.040493392977481425
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.9495798319327731,
+	    "std": 0.014213260391884312
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.9153846153846154,
+	    "std": 0.014110801101165216
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.43343653250773995,
+	    "std": 0.015927564105736952
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.8413793103448276,
+	    "std": 0.030443500317583982
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.6017764618800888,
+	    "std": 0.013323372718569003
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.7,
+	    "std": 0.046056618647183814
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.68,
+	    "std": 0.046882617226215034
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.8650793650793651,
+	    "std": 0.017595292443220677
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.7301587301587301,
+	    "std": 0.03970158273235172
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.6851851851851852,
+	    "std": 0.028317533496066485
+	},
+	"gsm8k": {
+	    "acc": 0.8923426838514026,
+	    "std": 0.008537484003023349
+	},
+	"gsm_plus": {
+	    "acc": 0.6724791508718726,
+	    "std": 0.004568904455850211
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.5627405696689761,
+	    "std": 0.013768491443841823
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.9473684210526315,
+	    "std": 0.018171642241529545
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.696078431372549,
+	    "std": 0.045766654032077636
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.9063829787234042,
+	    "std": 0.01904256081095343
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.7284768211920529,
+	    "std": 0.03631329803969653
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.810320781032078,
+	    "std": 0.014651492042714027
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.837037037037037,
+	    "std": 0.03190541474482841
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.879245283018868,
+	    "std": 0.020054189400972373
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.9513888888888888,
+	    "std": 0.01798368938315353
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.8208092485549133,
+	    "std": 0.029242513059063283
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.9516129032258065,
+	    "std": 0.012207189992293645
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.6552598225602028,
+	    "std": 0.01693127297162899
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.83,
+	    "std": 0.0377525168068637
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.8055555555555556,
+	    "std": 0.026991454502036723
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.4125441696113074,
+	    "std": 0.014638330004904
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.6809290953545232,
+	    "std": 0.016307354764197007
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.6692913385826772,
+	    "std": 0.024134515722512916
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.4841053587647593,
+	    "std": 0.015067947932313601
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.7229437229437229,
+	    "std": 0.014731107275426527
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.591182364729459,
+	    "std": 0.022029816248449473
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.7832080200501254,
+	    "std": 0.014595904333460294
+	},
+	"mmlu_other": {
+	    "acc": 0.8661087866108786,
+	    "std": 0.005828536575298841
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8999025024374391,
+	    "std": 0.0053306576739102565
+	},
+	"mmlu_humanities": {
+	    "acc": 0.775557917109458,
+	    "std": 0.005884152744704121
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.63,
+	    "std": 0.048523658709391
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.20504947117024905,
+	    "std": 0.007458741705568805
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.1468237273874632,
+	    "std": 0.007260964090372606
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.034112444725205304,
+	    "std": 0.00322650877501081
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.21830985915492956,
+	    "std": 0.01416084639295436
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.15127175368139223,
+	    "std": 0.013118791661745139
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.053348467650397274,
+	    "std": 0.00757555943401903
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.17845277645942098,
+	    "std": 0.008343508973515892
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.1631663974151858,
+	    "std": 0.01050630653929366
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.06279620853080568,
+	    "std": 0.004822116042896295
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.21824449748077432,
+	    "std": 0.006727232687270548
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.12385600976205004,
+	    "std": 0.00575450623090405
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.03571428571428571,
+	    "std": 0.002943440656043365
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.1861648016276704,
+	    "std": 0.008780833518736451
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.11875843454790823,
+	    "std": 0.008406247828055272
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.0560485754320411,
+	    "std": 0.0049722187371564796
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.188110281447444,
+	    "std": 0.006623732358247194
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.16392857142857142,
+	    "std": 0.006997575114572627
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.03590712742980562,
+	    "std": 0.003057545380021272
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.22087542087542086,
+	    "std": 0.010768623601208636
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.11229135053110774,
+	    "std": 0.008699924642365815
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.043225806451612905,
+	    "std": 0.005167144059620598
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.1831626848691695,
+	    "std": 0.013053862297770976
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.15575916230366493,
+	    "std": 0.01312797407667918
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.06420021762785637,
+	    "std": 0.008089811074999615
+	}
+    },
+    "01-ai/Yi-1.5-34B-Chat": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.4292682926829268,
+	    "std": 0.02447477747538199
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.69,
+	    "std": 0.04648231987117316
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.81,
+	    "std": 0.039427724440366234
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.84,
+	    "std": 0.03684529491774708
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.5892857142857143,
+	    "std": 0.04669510663875191
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.6303317535545023,
+	    "std": 0.016625582839805548
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.6491228070175439,
+	    "std": 0.044895393502706986
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.8781512605042017,
+	    "std": 0.021248144538412023
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.8307692307692308,
+	    "std": 0.01901100452365105
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.2260061919504644,
+	    "std": 0.013442846309135106
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.6827586206896552,
+	    "std": 0.03878352372138621
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.4241302738712065,
+	    "std": 0.013450699683223
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.57,
+	    "std": 0.049756985195624284
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.53,
+	    "std": 0.05016135580465919
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.6984126984126984,
+	    "std": 0.023636975996101813
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.5714285714285714,
+	    "std": 0.0442626668137991
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.4925925925925926,
+	    "std": 0.0304821923951915
+	},
+	"gsm8k": {
+	    "acc": 0.796057619408643,
+	    "std": 0.011098602284899178
+	},
+	"gsm_plus": {
+	    "acc": 0.5887983320697499,
+	    "std": 0.004790313182938926
+	},
+	"mmlu_pro_physics": {
+	    "acc": 0.3964588144726713,
+	    "std": 0.013577354222691549
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.8947368421052632,
+	    "std": 0.02497453345092071
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.5294117647058824,
+	    "std": 0.04966570903978529
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.7659574468085106,
+	    "std": 0.02767845257821239
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.5298013245033113,
+	    "std": 0.040752249922169775
+	},
+	"mmlu_pro_biology": {
+	    "acc": 0.7196652719665272,
+	    "std": 0.016785999765195445
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.7407407407407407,
+	    "std": 0.03785714465066653
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.7924528301886793,
+	    "std": 0.024959918028911274
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.8194444444444444,
+	    "std": 0.032166008088022675
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.7167630057803468,
+	    "std": 0.03435568056047873
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.8580645161290322,
+	    "std": 0.019853003676559764
+	},
+	"mmlu_pro_business": {
+	    "acc": 0.41951837769328265,
+	    "std": 0.017579504263223977
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.77,
+	    "std": 0.04229525846816508
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.6620370370370371,
+	    "std": 0.03225941352631295
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": 0.2234982332155477,
+	    "std": 0.012387308933095847
+	},
+	"mmlu_pro_health": {
+	    "acc": 0.5794621026894865,
+	    "std": 0.017270466163744967
+	},
+	"mmlu_pro_history": {
+	    "acc": 0.5013123359580053,
+	    "std": 0.02564937045366408
+	},
+	"mmlu_pro_law": {
+	    "acc": 0.34514078110808355,
+	    "std": 0.014334276223101471
+	},
+	"mmlu_pro_other": {
+	    "acc": 0.5443722943722944,
+	    "std": 0.016392765213525003
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": 0.4649298597194389,
+	    "std": 0.02235035399756947
+	},
+	"mmlu_pro_psychology": {
+	    "acc": 0.6666666666666666,
+	    "std": 0.01669800483285424
+	},
+	"mmlu_other": {
+	    "acc": 0.7920823945928549,
+	    "std": 0.007021858373474207
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8284042898927527,
+	    "std": 0.006691306131444677
+	},
+	"mmlu_humanities": {
+	    "acc": 0.685653560042508,
+	    "std": 0.006468018236028931
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.5,
+	    "std": 0.050251890762960605
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.2811327192084613,
+	    "std": 0.00830512637031697
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.19814892721918384,
+	    "std": 0.008177480211009981
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.3130132659507265,
+	    "std": 0.008242684751235022
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.2805164319248826,
+	    "std": 0.015400145105342045
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.21151271753681392,
+	    "std": 0.014951892823452998
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.27128263337116915,
+	    "std": 0.014988191041100203
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.2586616041765543,
+	    "std": 0.00954212380127328
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.210016155088853,
+	    "std": 0.0115811212058084
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.28751974723538704,
+	    "std": 0.008996512388590991
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.27923627684964203,
+	    "std": 0.0073065389583088424
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.20561317876754118,
+	    "std": 0.0070599767087042966
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.3045774647887324,
+	    "std": 0.007299694707695811
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.2650050864699898,
+	    "std": 0.009956071213212214
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.20310391363022942,
+	    "std": 0.010453999228229068
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.3096683792620271,
+	    "std": 0.009994715289275107
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.29753015508328545,
+	    "std": 0.007748672855747242
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.19892857142857143,
+	    "std": 0.007545408445030788
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.31533477321814257,
+	    "std": 0.007635688658896483
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.2713804713804714,
+	    "std": 0.011543107742004406
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.19802731411229135,
+	    "std": 0.010981191104323627
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.3025806451612903,
+	    "std": 0.01167190814968943
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.2571103526734926,
+	    "std": 0.01474941098478789
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.18586387434554974,
+	    "std": 0.014082628961885094
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.29379760609357997,
+	    "std": 0.015033751887107854
+	}
+    },
+    "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF": {
+	"mmlu_pro_computer_science": {
+	    "acc": 0.6048780487804878,
+	    "std": 0.02417340548461696
+	},
+	"mmlu_college_computer_science": {
+	    "acc": 0.71,
+	    "std": 0.045604802157206845
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.81,
+	    "std": 0.039427724440366234
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.92,
+	    "std": 0.027265992434429093
+	},
+	"mmlu_machine_learning": {
+	    "acc": 0.7142857142857143,
+	    "std": 0.04287858751340455
+	},
+	"mmlu_pro_economics": {
+	    "acc": 0.7334123222748815,
+	    "std": 0.015229314298739239
+	},
+	"mmlu_econometrics": {
+	    "acc": 0.7017543859649122,
+	    "std": 0.04303684033537314
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": 0.9033613445378151,
+	    "std": 0.019192520709708723
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": 0.8564102564102564,
+	    "std": 0.01777983962191207
+	},
+	"mmlu_pro_engineering": {
+	    "acc": 0.37874097007223945,
+	    "std": 0.015590851035572305
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.7931034482758621,
+	    "std": 0.03375672449560553
+	},
+	"mmlu_pro_math": {
+	    "acc": 0.5618060695780903,
+	    "std": 0.01350390916689082
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.62,
+	    "std": 0.048783173121456316
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.52,
+	    "std": 0.05021167315686779
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.7724867724867724,
+	    "std": 0.021591269407823785
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.6666666666666666,
+	    "std": 0.042163702135578345
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.5481481481481482,
+	    "std": 0.030343862998512616
+	},
+	"gsm8k": {
+	    "acc": 0.9188779378316907,
+	    "std": 0.007520395797922653
+	},
+	"gsm_plus": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_physics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.9144736842105263,
+	    "std": 0.02275867713088861
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.696078431372549,
+	    "std": 0.04576665403207763
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.825531914893617,
+	    "std": 0.024809442335503966
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.6423841059602649,
+	    "std": 0.03913453431177258
+	},
+	"mmlu_pro_biology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.8074074074074075,
+	    "std": 0.03406542058502652
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.8603773584905661,
+	    "std": 0.021331453470148233
+	},
+	"mmlu_college_biology": {
+	    "acc": 0.9375,
+	    "std": 0.02024219611347799
+	},
+	"mmlu_college_medicine": {
+	    "acc": 0.7861271676300579,
+	    "std": 0.03126511206173043
+	},
+	"mmlu_high_school_biology": {
+	    "acc": 0.9225806451612903,
+	    "std": 0.015203644420774848
+	},
+	"mmlu_pro_business": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.8,
+	    "std": 0.04020151261036847
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.7592592592592593,
+	    "std": 0.029157522184605607
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_health": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_history": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_law": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_other": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_psychology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_other": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8791030224244394,
+	    "std": 0.005786988689328805
+	},
+	"mmlu_humanities": {
+	    "acc": 0.8129649309245484,
+	    "std": 0.005505898216976143
+	},
+	"mmlu_college_chemistry": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.3333333333333333,
+	    "std": 0.008708832404552624
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.26924694993689524,
+	    "std": 0.009099918365679128
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.3790271636133923,
+	    "std": 0.00862352073733747
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.357981220657277,
+	    "std": 0.016433845814829078
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.2677376171352075,
+	    "std": 0.016211329963235575
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.39160045402951194,
+	    "std": 0.016454121424619633
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.3009017560512577,
+	    "std": 0.009994297739275945
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.2544426494345719,
+	    "std": 0.012383705999382159
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.34636650868878355,
+	    "std": 0.009457775955075697
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.34394059931052773,
+	    "std": 0.007736466123407584
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.2751677852348993,
+	    "std": 0.007801521631267917
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.3830482897384306,
+	    "std": 0.0077105220514653
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.3275686673448627,
+	    "std": 0.010587510898811714
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.27462887989203777,
+	    "std": 0.011597802366430392
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.3694535263895376,
+	    "std": 0.010433537276805354
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.32079264790350376,
+	    "std": 0.007911546421408282
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.28,
+	    "std": 0.008486797009040955
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.3755399568034557,
+	    "std": 0.007957992900130039
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.3441077441077441,
+	    "std": 0.012332369383225877
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.2723823975720789,
+	    "std": 0.012267278644184428
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.3735483870967742,
+	    "std": 0.01229112087716783
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.3321956769055745,
+	    "std": 0.015895505487552343
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.25523560209424084,
+	    "std": 0.015784026861204274
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.33623503808487487,
+	    "std": 0.01559219671215027
+	}
+    },
+    "meta-llama/Llama-3.1-70B-Instruct": {
+	"mmlu_pro_computer_science": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_college_computer_science": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_computer_security": {
+	    "acc": 0.82,
+	    "std": 0.03861229196653695
+	},
+	"mmlu_high_school_computer_science": {
+	    "acc": 0.93,
+	    "std": 0.025643239997624294
+	},
+	"mmlu_machine_learning": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_economics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_econometrics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_high_school_microeconomics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_high_school_macroeconomics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_engineering": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_electrical_engineering": {
+	    "acc": 0.7931034482758621,
+	    "std": 0.03375672449560553
+	},
+	"mmlu_pro_math": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_abstract_algebra": {
+	    "acc": 0.64,
+	    "std": 0.04824181513244218
+	},
+	"mmlu_college_mathematics": {
+	    "acc": 0.54,
+	    "std": 0.05009082659620332
+	},
+	"mmlu_elementary_mathematics": {
+	    "acc": 0.7724867724867724,
+	    "std": 0.02159126940782379
+	},
+	"mmlu_formal_logic": {
+	    "acc": 0.6507936507936508,
+	    "std": 0.04263906892795132
+	},
+	"mmlu_high_school_mathematics": {
+	    "acc": 0.5666666666666667,
+	    "std": 0.030213340289237927
+	},
+	"gsm8k": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"gsm_plus": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_physics": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_astronomy": {
+	    "acc": 0.9144736842105263,
+	    "std": 0.02275867713088861
+	},
+	"mmlu_college_physics": {
+	    "acc": 0.6764705882352942,
+	    "std": 0.04655010411319611
+	},
+	"mmlu_conceptual_physics": {
+	    "acc": 0.8127659574468085,
+	    "std": 0.025501588341883607
+	},
+	"mmlu_high_school_physics": {
+	    "acc": 0.6423841059602649,
+	    "std": 0.03913453431177258
+	},
+	"mmlu_pro_biology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_anatomy": {
+	    "acc": 0.8074074074074075,
+	    "std": 0.03406542058502652
+	},
+	"mmlu_clinical_knowledge": {
+	    "acc": 0.8603773584905661,
+	    "std": 0.021331453470148233
+	},
+	"mmlu_college_biology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_college_medicine": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_high_school_biology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_business": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_business_ethics": {
+	    "acc": 0.8,
+	    "std": 0.04020151261036847
+	},
+	"mmlu_high_school_statistics": {
+	    "acc": 0.7638888888888888,
+	    "std": 0.02896370257079102
+	},
+	"mmlu_pro_chemistry": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_health": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_history": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_law": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_other": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_philosophy": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_pro_psychology": {
+	    "acc": -1.0,
+	    "std": -1.0
+	},
+	"mmlu_other": {
+	    "acc": 0.8429353073704539,
+	    "std": 0.00625221141450198
+	},
+	"mmlu_social_sciences": {
+	    "acc": 0.8787780305492363,
+	    "std": 0.0057900855746874265
+	},
+	"mmlu_humanities": {
+	    "acc": 0.8133900106269926,
+	    "std": 0.005505469137870621
+	},
+	"mmlu_college_chemistry": {
+	    "acc": 0.59,
+	    "std": 0.04943110704237102
+	},
+	"robench2024b_all_setcsSCP-s": {
+	    "acc": 0.3135448652337086,
+	    "std": 0.008570814886711802
+	},
+	"robench2024b_all_setcsSCP-c": {
+	    "acc": 0.27177114009255365,
+	    "std": 0.00912667095316977
+	},
+	"robench2024b_all_setcsSCP-p": {
+	    "acc": 0.36323436512950097,
+	    "std": 0.008548627951189387
+	},
+	"robench2024b_all_setq-finSCP-s": {
+	    "acc": 0.3403755868544601,
+	    "std": 0.01624287050427041
+	},
+	"robench2024b_all_setq-finSCP-c": {
+	    "acc": 0.26506024096385544,
+	    "std": 0.016159530991191506
+	},
+	"robench2024b_all_setq-finSCP-p": {
+	    "acc": 0.376844494892168,
+	    "std": 0.016335708292294675
+	},
+	"robench2024b_all_setmathSCP-s": {
+	    "acc": 0.2928334124347413,
+	    "std": 0.009916125101843424
+	},
+	"robench2024b_all_setmathSCP-c": {
+	    "acc": 0.2592891760904685,
+	    "std": 0.012460391547637936
+	},
+	"robench2024b_all_setmathSCP-p": {
+	    "acc": 0.33372827804107424,
+	    "std": 0.009372946148827279
+	},
+	"robench2024b_all_seteessSCP-s": {
+	    "acc": 0.3224608857067091,
+	    "std": 0.0076126354355629455
+	},
+	"robench2024b_all_seteessSCP-c": {
+	    "acc": 0.273032336790726,
+	    "std": 0.007782629732882664
+	},
+	"robench2024b_all_seteessSCP-p": {
+	    "acc": 0.3744969818913481,
+	    "std": 0.007676624527568098
+	},
+	"robench2024b_all_setphysicsSCP-s": {
+	    "acc": 0.30925737538148523,
+	    "std": 0.010426460055521449
+	},
+	"robench2024b_all_setphysicsSCP-c": {
+	    "acc": 0.27125506072874495,
+	    "std": 0.011553116996205596
+	},
+	"robench2024b_all_setphysicsSCP-p": {
+	    "acc": 0.3596450256889304,
+	    "std": 0.010373863662263836
+	},
+	"robench2024b_all_setstatSCP-s": {
+	    "acc": 0.3032739804709937,
+	    "std": 0.007791060538523085
+	},
+	"robench2024b_all_setstatSCP-c": {
+	    "acc": 0.2807142857142857,
+	    "std": 0.008493398977533638
+	},
+	"robench2024b_all_setstatSCP-p": {
+	    "acc": 0.37122030237580994,
+	    "std": 0.007939410536374092
+	},
+	"robench2024b_all_setq-bioSCP-s": {
+	    "acc": 0.3367003367003367,
+	    "std": 0.012267603006911624
+	},
+	"robench2024b_all_setq-bioSCP-c": {
+	    "acc": 0.2723823975720789,
+	    "std": 0.012267278644184433
+	},
+	"robench2024b_all_setq-bioSCP-p": {
+	    "acc": 0.3690322580645161,
+	    "std": 0.012260552313911934
+	},
+	"robench2024b_all_seteconSCP-s": {
+	    "acc": 0.3185437997724687,
+	    "std": 0.015723755927081258
+	},
+	"robench2024b_all_seteconSCP-c": {
+	    "acc": 0.2591623036649215,
+	    "std": 0.015862994847633767
+	},
+	"robench2024b_all_seteconSCP-p": {
+	    "acc": 0.31991294885745375,
+	    "std": 0.01539489821594412
+	}
+    }
+}
