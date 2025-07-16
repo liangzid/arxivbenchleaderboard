@@ -42,16 +42,7 @@ export default function Toolbar() {
           className="bg-white/10 dark:bg-black/20 rounded-full px-4 py-2 pl-10 outline-none focus:ring-2 ring-cyan-400"
         />
       </div>
-      <button
-        onClick={() => setDark(!dark)}
-        className="p-2 rounded-full bg-white/10 dark:bg-black/20"
-      >
-        {dark ? (
-          <Sun className="w-5 h-5 text-yellow-400" />
-        ) : (
-          <Moon className="w-5 h-5 text-slate-400" />
-        )}
-      </button>
+
     </div>
   );
 }
