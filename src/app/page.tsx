@@ -102,57 +102,77 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center mb-8">
-          <div className="bg-white dark:bg-slate-800 rounded-lg p-1 shadow-lg inline-flex">
-            <button
-              onClick={() => setActiveBenchmark('2024b')}
-              className={`px-6 py-3 text-sm font-medium rounded-md transition-colors duration-200 ${
-                activeBenchmark === '2024b'
-                  ? 'bg-cyan-500 text-white shadow-lg'
-                  : 'text-slate-600 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400'
-              }`}
-            >
-              ArxivRoll 2024B
-            </button>
-            <button
-              onClick={() => setActiveBenchmark('2025a')}
-              className={`px-6 py-3 text-sm font-medium rounded-md transition-colors duration-200 ${
-                activeBenchmark === '2025a'
-                  ? 'bg-cyan-500 text-white shadow-lg'
-                  : 'text-slate-600 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400'
-              }`}
-            >
-              ArxivRoll 2025A
-            </button>
+        {/* Benchmark Version Tabs */}
+        <div className="max-w-6xl mx-auto mb-8">
+          <TabNavigation 
+            activeBenchmark={activeBenchmark} 
+            onBenchmarkChange={setActiveBenchmark} 
+          />
+        </div>
+
+        {/* Toolbar */}
+        <div className="max-w-6xl mx-auto mb-8">
+          <Toolbar />
+        </div>
+
+        {/* Main Content */}
+        <div className="max-w-6xl mx-auto">
+          <RobenchTable activeTab={activeTab} benchmarkVersion={activeBenchmark} />
+          <div className="mt-12">
+            <RobenchScpRadarCharts benchmarkVersion={activeBenchmark} />
           </div>
         </div>
 
-        {activeBenchmark === '2024b' ? (
-          <>
-            <Toolbar />
-            <div className="flex justify-center mt-8">
-              <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
+        <footer className="mt-16 border-t border-gray-200 dark:border-gray-700 pt-8 pb-4">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center md:text-left">
+              
+              <div>
+                <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Support</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-400">
+                  This project is supported by <a href="https://astaple.com" className="text-cyan-500 hover:text-cyan-400 underline">Astaple Group in PolyU</a>.
+                </p>
+                <p className="text-sm text-slate-600 dark:text-slate-400">
+                  Also maintained by <a href="https://moreoverai.com/about" className="text-cyan-500 hover:text-cyan-400 underline">MoreoverAI</a>.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Resources</h3>
+                <ul className="space-y-2 text-sm">
+                  <li><a href="https://arxiv.org/not-done" className="text-cyan-500 hover:text-cyan-400 underline">📄 Paper</a></li>
+                  <li><a href="https://github.com/liangzid/ArxivRoll" className="text-cyan-500 hover:text-cyan-400 underline">📊 GitHub Repository: Give Us a Star!</a></li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Developer</h3>
+                <p className="text-sm text-slate-600 dark:text-slate-400">
+                  Developed by <a href="https://liangzid.github.io/research.html" className="text-cyan-500 hover:text-cyan-400 underline">Zi Liang</a>
+                </p>
+                <p className="text-sm text-slate-600 dark:text-slate-400 mt-2">
+                  📧 <a href="mailto:zi1415926.liang@connect.polyu.hk" className="text-cyan-500 hover:text-cyan-400 underline">zi1415926.liang@connect.polyu.hk</a>
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Citation</h3>
+                <div className="bg-gray-900 text-green-400 p-3 rounded-lg text-left text-xs overflow-x-auto">
+                  <pre><code>{`@misc{arxivroll2024,
+		  todotodotodotodotodotodotodotodotodotodotodotodo
+}`}</code></pre>
+                </div>
+              </div>
             </div>
-            <RobenchTable activeTab={activeTab} benchmarkVersion="2024b" />
-            
-            <div className="mt-12">
-              <RobenchScpRadarCharts benchmarkVersion="2024b" />
-            </div>
-          </>
-        ) : (
-          <div className="flex items-center justify-center h-96">
-            <div className="text-center">
-              <div className="text-6xl mb-4">🚀</div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-4">
-                ArxivRoll 2025A Coming Soon
-              </h2>
-              <p className="text-slate-600 dark:text-slate-400 max-w-md mx-auto">
-                We're currently preparing fresh test cases from the latest ArXiv preprints (Oct 2024 - Mar 2025). 
-                Stay tuned for the next iteration of our one-time-pad evaluation framework!
+
+            <div className="mt-8 pt-6 border-t border-gray-200 dark:border-gray-700 text-center">
+              <p className="text-sm text-slate-500 dark:text-slate-400">
+                © 2025 ArxivRoll Leaderboard. Built with ❤️ for transparent LLM evaluation.
               </p>
             </div>
           </div>
-        )}
+        </footer>
+
       </div>
     </main>
   );
