@@ -80,6 +80,26 @@ export default function Home() {
               <li><strong>🌍 Broad Coverage:</strong> 8 domains, ~100-word contexts, 1k+ samples per domain</li>
             </ul>
           </div>
+
+          <div className="bg-white dark:bg-slate-800 rounded-lg shadow-lg p-6 mb-6">
+            <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-4">👩‍💻 How Do I Evaluate my Model?</h2>
+            <p className="text-slate-700 dark:text-slate-300 mb-4">
+              The most easy way is to use <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm">llm-eval-harness</code>
+            </p>
+            
+            <p className="text-slate-700 dark:text-slate-300 mb-4">
+              Just install <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm">lm-eval</code> from <a href="https://github.com/AstapleDSE/lm-eval-with-ArxivRollBench" className="text-cyan-500 hover:text-cyan-400 underline" target="_blank" rel="noopener noreferrer">here</a>,
+              and then evaluate a huggingface model with:
+            </p>
+
+            <div className="bg-gray-900 text-green-400 p-4 rounded-lg overflow-x-auto">
+              <pre className="text-sm"><code>{`lm_eval --model hf --model_args pretrained="your-model-name",parallelize=True --tasks arxivrollbench2024b --log_samples --output_path your-log-path`}</code></pre>
+            </div>
+
+            <p className="text-slate-700 dark:text-slate-300 mt-4">
+              You can also evaluate LLM via APIs with examples detailed in <code className="bg-gray-100 dark:bg-gray-700 px-2 py-1 rounded text-sm">./eval/</code>.
+            </p>
+          </div>
         </div>
 
         <div className="flex justify-center mb-8">

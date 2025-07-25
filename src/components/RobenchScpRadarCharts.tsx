@@ -45,12 +45,49 @@ export default function RobenchScpRadarCharts({ resultsData, benchmarkVersion = 
         }
         
         const parsedData = parseRobenchScpData(data);
-        setModelData(parsedData);
+        
+        // Filter to show only top 10 models by average score across all scenarios
+        const topModels = getTopModelsByAverageScore(parsedData, 10);
+        setModelData(topModels);
       } catch (err) {
         setError(err instanceof Error ? err.message : 'Unknown error occurred');
       } finally {
         setLoading(false);
       }
+    };
+
+    // Helper function to get top N models by average score
+    const getTopModelsByAverageScore = (data: any, limit: number) => {
+      if (!data || Object.keys(data).length === 0) return {};
+
+      const modelScores = Object.entries(data).map(([modelName, scenarios]: [string, any]) => {
+        let totalScore = 0;
+        let count = 0;
+        
+        Object.values(scenarios).forEach((scenario: any) => {
+          if (scenario.s && scenario.c && scenario.p) {
+            const avgScore = (scenario.s.acc + scenario.c.acc + scenario.p.acc) / 3;
+            totalScore += avgScore;
+            count++;
+          }
+        });
+        
+        const averageScore = count > 0 ? totalScore / count : 0;
+        return { modelName, averageScore, data: scenarios };
+      });
+
+      // Sort by average score descending and take top N
+      const topModels = modelScores
+        .sort((a, b) => b.averageScore - a.averageScore)
+        .slice(0, limit);
+
+      // Convert back to original format
+      const result: any = {};
+      topModels.forEach(({ modelName, data }) => {
+        result[modelName] = data;
+      });
+
+      return result;
     };
 
     loadData();
@@ -97,8 +134,8 @@ export default function RobenchScpRadarCharts({ resultsData, benchmarkVersion = 
         <svg className="mx-auto h-12 w-12 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
-        <h3 className="mt-2 text-sm font-medium text-gray-300">No RobenchSCP Data</h3>
-        <p className="mt-1 text-sm text-gray-500">No RobenchSCP results found in the dataset.</p>
+        <h3 className="mt-2 text-sm font-medium text-gray-300">No Top Models Available</h3>
+        <p className="mt-1 text-sm text-gray-500">No sufficient data to determine top 10 models for radar analysis.</p>
       </div>
     );
   }
@@ -122,7 +159,7 @@ export default function RobenchScpRadarCharts({ resultsData, benchmarkVersion = 
           ArxivRoll {benchmarkVersion.toUpperCase()} SCP Radar Analysis
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          Interactive radar charts showing model performance across all Sequencing, Cloze, and Prediction tasks with standard deviation ranges.
+          Top 10 models by average performance across all Sequencing, Cloze, and Prediction tasks with standard deviation ranges.
         </p>
       </div>
 

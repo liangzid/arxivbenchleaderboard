@@ -1,7 +1,7 @@
 'use client';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useLB } from '@/store/leaderboard';
 import useRobenchLeaderboard from '@/hooks/useRobenchLeaderboard';
 import { cn } from '@/lib/utils';
@@ -58,6 +58,20 @@ export default function RobenchTable({ activeTab = 'overall', benchmarkVersion =
     return 0;
   });
 
+  // Pagination logic
+  const totalPages = Math.ceil(sorted.length / modelsPerPage);
+  const startIndex = (currentPage - 1) * modelsPerPage;
+  const paginatedRows = sorted.slice(startIndex, startIndex + modelsPerPage);
+
+  // Reset to page 1 when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, sortBy, activeTab, benchmarkVersion]);
+
+  const goToPage = (page: number) => {
+    setCurrentPage(Math.max(1, Math.min(page, totalPages)));
+  };
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -76,11 +90,61 @@ export default function RobenchTable({ activeTab = 'overall', benchmarkVersion =
           </tr>
         </thead>
         <tbody>
-          {sorted.map((row, idx) => (
-            <Row key={row.model} row={row} idx={idx} activeTab={activeTab} />
+          {paginatedRows.map((row, idx) => (
+            <Row key={row.model} row={row} idx={startIndex + idx} activeTab={activeTab} />
           ))}
         </tbody>
       </table>
+
+      {/* Pagination Controls */}
+      {totalPages > 1 && (
+        <div className="flex justify-center items-center space-x-4 mt-6">
+          <button
+            onClick={() => goToPage(currentPage - 1)}
+            disabled={currentPage === 1}
+            className="p-2 rounded-md bg-white/10 hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+          
+          <div className="flex items-center space-x-2">
+            {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+              const pageNum = totalPages <= 7 ? i + 1 : 
+                currentPage <= 4 ? i + 1 : 
+                currentPage >= totalPages - 3 ? totalPages - 6 + i :
+                currentPage - 3 + i;
+              
+              if (pageNum < 1 || pageNum > totalPages) return null;
+              
+              return (
+                <button
+                  key={pageNum}
+                  onClick={() => goToPage(pageNum)}
+                  className={`px-3 py-1 rounded-md text-sm transition-colors ${
+                    currentPage === pageNum
+                      ? 'bg-cyan-500 text-white'
+                      : 'bg-white/10 hover:bg-white/20'
+                  }`}
+                >
+                  {pageNum}
+                </button>
+              );
+            })}
+          </div>
+          
+          <button
+            onClick={() => goToPage(currentPage + 1)}
+            disabled={currentPage === totalPages}
+            className="p-2 rounded-md bg-white/10 hover:bg-white/20 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
+          
+          <div className="text-sm text-gray-400">
+            {startIndex + 1}-{Math.min(startIndex + modelsPerPage, sorted.length)} of {sorted.length} models
+          </div>
+        </div>
+      )}
     </motion.div>
   );
 }
