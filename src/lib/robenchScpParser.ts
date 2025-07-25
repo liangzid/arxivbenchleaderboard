@@ -107,9 +107,9 @@ export function getScenarioDisplayName(scenarioKey: string): string {
 
 export function getScoreTypeDisplayName(scoreType: 's' | 'c' | 'p'): string {
   const names = {
-    s: 'Selection',
-    c: 'Configuration',
-    p: 'Performance',
+    s: 'Sequencing',
+    c: 'Cloze',
+    p: 'Prediction',
   };
   return names[scoreType];
 }

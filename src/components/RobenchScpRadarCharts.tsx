@@ -45,9 +45,9 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
   }, [resultsData]);
 
   const chartTypes = [
-    { key: 's' as const, label: 'Selection', color: 'text-blue-400' },
-    { key: 'c' as const, label: 'Configuration', color: 'text-green-400' },
-    { key: 'p' as const, label: 'Performance', color: 'text-purple-400' },
+    { key: 's' as const, label: 'Sequencing', color: 'text-blue-400' },
+    { key: 'c' as const, label: 'Cloze', color: 'text-green-400' },
+    { key: 'p' as const, label: 'Prediction', color: 'text-purple-400' },
   ];
 
   if (loading) {
@@ -107,10 +107,10 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
     <div className="space-y-6">
       <div className="text-center">
         <h2 className="text-3xl font-bold text-white mb-2">
-          RobenchSCP Radar Analysis
+          ArxivRoll SCP Radar Analysis
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
-          Interactive radar charts showing model performance across all RobenchSCP scenarios with standard deviation ranges.
+          Interactive radar charts showing model performance across all Sequencing, Cloze, and Prediction tasks with standard deviation ranges.
         </p>
       </div>
 
@@ -148,9 +148,9 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
       <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-lg p-4">
         <h3 className="text-sm font-medium text-gray-300 mb-3">Understanding the Scores</h3>
         <div className="text-sm text-gray-400 space-y-2">
-          <p><span className="text-blue-400 font-medium">Selection (S):</span> Setup and initialization performance</p>
-          <p><span className="text-green-400 font-medium">Configuration (C):</span> Parameter and configuration handling</p>
-          <p><span className="text-purple-400 font-medium">Performance (P):</span> Final task execution and results</p>
+          <p><span className="text-blue-400 font-medium">Sequencing (S):</span> Re-order shuffled sentences performance</p>
+          <p><span className="text-green-400 font-medium">Cloze (C):</span> Fill masked sentences accuracy</p>
+          <p><span className="text-purple-400 font-medium">Prediction (P):</span> Choose correct next sentence accuracy</p>
           <p className="mt-2 text-gray-500">
             Hover over data points to see exact scores with standard deviation ranges.
           </p>
