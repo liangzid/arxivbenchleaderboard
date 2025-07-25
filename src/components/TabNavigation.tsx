@@ -11,11 +11,11 @@ const TABS = [
   { id: 'cs', label: 'CS' },
   { id: 'q-fin', label: 'Finance' },
   { id: 'math', label: 'Math' },
-  { id: 'eess', label: 'EESS' },
   { id: 'physics', label: 'Physics' },
   { id: 'stat', label: 'Statistics' },
   { id: 'q-bio', label: 'Bio' },
   { id: 'econ', label: 'Economics' },
+  { id: 'eess', label: 'EESS' },
 ];
 
 export default function TabNavigation({ activeTab, onTabChange }: TabNavigationProps) {
