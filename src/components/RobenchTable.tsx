@@ -1,6 +1,6 @@
 'use client';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useState } from 'react';
 import { useLB } from '@/store/leaderboard';
 import useRobenchLeaderboard from '@/hooks/useRobenchLeaderboard';
@@ -8,11 +8,14 @@ import { cn } from '@/lib/utils';
 
 interface RobenchTableProps {
   activeTab?: string;
+  benchmarkVersion?: string;
 }
 
-export default function RobenchTable({ activeTab = 'overall' }: RobenchTableProps) {
-  const rows = useRobenchLeaderboard();
+export default function RobenchTable({ activeTab = 'overall', benchmarkVersion = '2024b' }: RobenchTableProps) {
+  const rows = useRobenchLeaderboard(benchmarkVersion);
   const { search, setSortBy, sortBy } = useLB();
+  const [currentPage, setCurrentPage] = useState(1);
+  const modelsPerPage = 10;
 
   const filtered = rows.filter(r => r.model.toLowerCase().includes(search));
 

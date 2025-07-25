@@ -7,7 +7,7 @@ import RobenchScpRadarCharts from '@/components/RobenchScpRadarCharts';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState('overall');
-
+  const [activeBenchmark, setActiveBenchmark] = useState('2024b');
   return (
     <main className="min-h-screen bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-900 dark:to-slate-800">
       <div className="container mx-auto px-4 py-10">
@@ -82,15 +82,57 @@ export default function Home() {
           </div>
         </div>
 
-        <Toolbar />
-        <div className="flex justify-center mt-8">
-          <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
+        <div className="flex justify-center mb-8">
+          <div className="bg-white dark:bg-slate-800 rounded-lg p-1 shadow-lg inline-flex">
+            <button
+              onClick={() => setActiveBenchmark('2024b')}
+              className={`px-6 py-3 text-sm font-medium rounded-md transition-colors duration-200 ${
+                activeBenchmark === '2024b'
+                  ? 'bg-cyan-500 text-white shadow-lg'
+                  : 'text-slate-600 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400'
+              }`}
+            >
+              ArxivRoll 2024B
+            </button>
+            <button
+              onClick={() => setActiveBenchmark('2025a')}
+              className={`px-6 py-3 text-sm font-medium rounded-md transition-colors duration-200 ${
+                activeBenchmark === '2025a'
+                  ? 'bg-cyan-500 text-white shadow-lg'
+                  : 'text-slate-600 dark:text-slate-300 hover:text-cyan-500 dark:hover:text-cyan-400'
+              }`}
+            >
+              ArxivRoll 2025A
+            </button>
+          </div>
         </div>
-        <RobenchTable activeTab={activeTab} />
-        
-        <div className="mt-12">
-          <RobenchScpRadarCharts />
-        </div>
+
+        {activeBenchmark === '2024b' ? (
+          <>
+            <Toolbar />
+            <div className="flex justify-center mt-8">
+              <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
+            </div>
+            <RobenchTable activeTab={activeTab} benchmarkVersion="2024b" />
+            
+            <div className="mt-12">
+              <RobenchScpRadarCharts benchmarkVersion="2024b" />
+            </div>
+          </>
+        ) : (
+          <div className="flex items-center justify-center h-96">
+            <div className="text-center">
+              <div className="text-6xl mb-4">🚀</div>
+              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-4">
+                ArxivRoll 2025A Coming Soon
+              </h2>
+              <p className="text-slate-600 dark:text-slate-400 max-w-md mx-auto">
+                We're currently preparing fresh test cases from the latest ArXiv preprints (Oct 2024 - Mar 2025). 
+                Stay tuned for the next iteration of our one-time-pad evaluation framework!
+              </p>
+            </div>
+          </div>
+        )}
       </div>
     </main>
   );

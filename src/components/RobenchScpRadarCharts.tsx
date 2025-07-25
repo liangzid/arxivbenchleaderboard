@@ -10,9 +10,10 @@ import {
 
 interface RobenchScpRadarChartsProps {
   resultsData?: any;
+  benchmarkVersion?: string;
 }
 
-export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarChartsProps) {
+export default function RobenchScpRadarCharts({ resultsData, benchmarkVersion = '2024b' }: RobenchScpRadarChartsProps) {
   const [loading, setLoading] = useState(true);
   const [modelData, setModelData] = useState<any>(null);
   const [error, setError] = useState<string | null>(null);
@@ -25,8 +26,19 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
         
         let data = resultsData;
         if (!data) {
-          const response = await fetch('/results.json');
+          const dataUrls = {
+            '2024b': '/2024b.json',
+            '2025a': '/2025a.json'
+          };
+          const dataUrl = dataUrls[benchmarkVersion as keyof typeof dataUrls] || dataUrls['2024b'];
+          const response = await fetch(dataUrl);
           if (!response.ok) {
+            if (benchmarkVersion === '2025a') {
+              // Allow 2025a to fail gracefully
+              setModelData({});
+              setLoading(false);
+              return;
+            }
             throw new Error('Failed to load results data');
           }
           data = await response.json();
@@ -42,7 +54,7 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
     };
 
     loadData();
-  }, [resultsData]);
+  }, [resultsData, benchmarkVersion]);
 
   const chartTypes = [
     { key: 's' as const, label: 'Sequencing', color: 'text-blue-400' },
@@ -107,7 +119,7 @@ export default function RobenchScpRadarCharts({ resultsData }: RobenchScpRadarCh
     <div className="space-y-6">
       <div className="text-center">
         <h2 className="text-3xl font-bold text-white mb-2">
-          ArxivRoll SCP Radar Analysis
+          ArxivRoll {benchmarkVersion.toUpperCase()} SCP Radar Analysis
         </h2>
         <p className="text-gray-400 max-w-2xl mx-auto">
           Interactive radar charts showing model performance across all Sequencing, Cloze, and Prediction tasks with standard deviation ranges.
