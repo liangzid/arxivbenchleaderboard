@@ -184,7 +184,7 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Resources</h3>
                 <ul className="space-y-2 text-sm">
-                  <li><a href="https://arxiv.org/not-done" className="text-cyan-500 hover:text-cyan-400 underline">📄 Paper</a></li>
+                  <li><a href="https://arxiv.org/abs/2507.19219" className="text-cyan-500 hover:text-cyan-400 underline">📄 Paper</a></li>
                   <li><a href="https://github.com/liangzid/ArxivRoll" className="text-cyan-500 hover:text-cyan-400 underline">📊 GitHub Repository: Give Us a Star!</a></li>
                 </ul>
               </div>
@@ -202,8 +202,14 @@ export default function Home() {
               <div>
                 <h3 className="text-lg font-semibold text-slate-800 dark:text-white mb-3">Citation</h3>
                 <div className="bg-gray-900 text-green-400 p-3 rounded-lg text-left text-xs overflow-x-auto">
-                  <pre><code>{`@misc{arxivroll2024,
-		  todotodotodotodotodotodotodotodotodotodotodotodo
+                  <pre><code>{`@misc{arxivroll,
+      title={How Much Do Large Language Model Cheat on Evaluation? Benchmarking Overestimation under the One-Time-Pad-Based Framework}, 
+      author={Zi Liang and Liantong Yu and Shiyu Zhang and Qingqing Ye and Haibo Hu},
+      year={2025},
+      eprint={2507.19219},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.19219}, 
 }`}</code></pre>
                 </div>
               </div>
