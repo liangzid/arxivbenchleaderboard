@@ -1,0 +1,3726 @@
+{
+  "openai/gpt-4": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.25,
+      "std": 0.06603381797442179
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.3333333333333333,
+      "std": 0.06666666666666665
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.34,
+      "std": 0.0676726816132972
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.20930232558139536,
+      "std": 0.06277223796575145
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.43137254901960786,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.38095238095238093,
+      "std": 0.07584124375059005
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.17857142857142858,
+      "std": 0.07370704611510596
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.4117647058823529,
+      "std": 0.06960093862470136
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2608695652173913,
+      "std": 0.06545849153992007
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.21428571428571427,
+      "std": 0.06408213992247222
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.38,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.45454545454545453,
+      "std": 0.07593355178041425
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.20588235294117646,
+      "std": 0.07038741487212932
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5714285714285714,
+      "std": 0.07142857142857148
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4166666666666667,
+      "std": 0.07191241060522427
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.11904761904761904,
+      "std": 0.05057601944205111
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.46,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.32653061224489793,
+      "std": 0.06768622021133469
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.22448979591836735,
+      "std": 0.06022425581505364
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.42,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4166666666666667,
+      "std": 0.07191241060522427
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.28888888888888886,
+      "std": 0.06832943242540507
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.5294117647058824,
+      "std": 0.07058823529411762
+    }
+  },
+  "openai/gpt-4o": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.20454545454545456,
+      "std": 0.06151320742474889
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.37254901960784315,
+      "std": 0.0683748853888733
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.42,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.20930232558139536,
+      "std": 0.06277223796575145
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.47058823529411764,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.40476190476190477,
+      "std": 0.0766572519305696
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.21428571428571427,
+      "std": 0.07896725691322382
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.45098039215686275,
+      "std": 0.0703700331173583
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2391304347826087,
+      "std": 0.06358669845936323
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.19047619047619047,
+      "std": 0.06132580154445567
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.38,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.5,
+      "std": 0.07624928516630235
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.08823529411764706,
+      "std": 0.04937482703908928
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5714285714285714,
+      "std": 0.07142857142857148
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.5416666666666666,
+      "std": 0.07267881673425385
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.07142857142857142,
+      "std": 0.04022089331224806
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.52,
+      "std": 0.07137140569598172
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3469387755102041,
+      "std": 0.06870411522695292
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.22448979591836735,
+      "std": 0.06022425581505364
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.5,
+      "std": 0.07142857142857142
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4375,
+      "std": 0.07236046734262122
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.13333333333333333,
+      "std": 0.051247074319053836
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.47058823529411764,
+      "std": 0.07058823529411762
+    }
+  },
+  "anthropic/claude-3.5-sonnet": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.4090909090909091,
+      "std": 0.07497837474124877
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.47058823529411764,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.34,
+      "std": 0.06767268161329719
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.37209302325581395,
+      "std": 0.0745845326267231
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.6666666666666666,
+      "std": 0.06666666666666664
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.47619047619047616,
+      "std": 0.07799829681942305
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2857142857142857,
+      "std": 0.08694008849288351
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.5294117647058824,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.41304347826086957,
+      "std": 0.07339975224406144
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.2857142857142857,
+      "std": 0.07055211404639926
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.54,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.38636363636363635,
+      "std": 0.07425392901036848
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.23529411764705882,
+      "std": 0.07384069581892326
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.42857142857142855,
+      "std": 0.07142857142857147
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4375,
+      "std": 0.07236046734262122
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.21428571428571427,
+      "std": 0.06408213992247222
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.6,
+      "std": 0.06998542122237653
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.4489795918367347,
+      "std": 0.07179207795648103
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.22448979591836735,
+      "std": 0.06022425581505364
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.54,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.5,
+      "std": 0.07293249574894728
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2,
+      "std": 0.06030226891555273
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.6666666666666666,
+      "std": 0.06666666666666664
+    }
+  },
+  "anthropic/claude-3.7-sonnet": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.4,
+      "std": 0.06998542122237651
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.3181818181818182,
+      "std": 0.07102933373079214
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.49019607843137253,
+      "std": 0.07069708383262727
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.4,
+      "std": 0.06998542122237651
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.27906976744186046,
+      "std": 0.06921151712956695
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.6666666666666666,
+      "std": 0.06666666666666664
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.4523809523809524,
+      "std": 0.0777319387388094
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.32142857142857145,
+      "std": 0.08987898137227081
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.5294117647058824,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.3695652173913043,
+      "std": 0.07195473383945741
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.21428571428571427,
+      "std": 0.06408213992247222
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.54,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.36363636363636365,
+      "std": 0.07335878043508443
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.38235294117647056,
+      "std": 0.08459514448960626
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.3877551020408163,
+      "std": 0.07032677934739909
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4375,
+      "std": 0.07236046734262122
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.2619047619047619,
+      "std": 0.06866508638104515
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.66,
+      "std": 0.06767268161329723
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.42857142857142855,
+      "std": 0.07142857142857147
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.24489795918367346,
+      "std": 0.06206900541120632
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.62,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4583333333333333,
+      "std": 0.07267881673425386
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2222222222222222,
+      "std": 0.06267511942419626
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.6470588235294118,
+      "std": 0.0675830899592709
+    }
+  },
+  "anthropic/claude-opus-4": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.52,
+      "std": 0.07137140569598172
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.09090909090909091,
+      "std": 0.04384025656094657
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.6274509803921569,
+      "std": 0.0683748853888733
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.58,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.06976744186046512,
+      "std": 0.03930950021993103
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.6274509803921569,
+      "std": 0.0683748853888733
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.5714285714285714,
+      "std": 0.07728596868577994
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.5686274509803921,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.391304347826087,
+      "std": 0.07275304578557182
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.047619047619047616,
+      "std": 0.03325858551283706
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.62,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.5909090909090909,
+      "std": 0.07497837474124878
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.029411764705882353,
+      "std": 0.02941176470588234
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5918367346938775,
+      "std": 0.07094099868916398
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.5,
+      "std": 0.07293249574894728
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.023809523809523808,
+      "std": 0.023809523809523805
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.72,
+      "std": 0.06414269805898186
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.673469387755102,
+      "std": 0.06768622021133469
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.74,
+      "std": 0.06266203485560372
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.6458333333333334,
+      "std": 0.06976139255528777
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.08888888888888889,
+      "std": 0.042902546629485436
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.6078431372549019,
+      "std": 0.0690463406339569
+    }
+  },
+  "anthropic/claude-sonnet-4": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.48,
+      "std": 0.07137140569598172
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.1590909090909091,
+      "std": 0.05577800511236324
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.5686274509803921,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.5,
+      "std": 0.07142857142857142
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.18604651162790697,
+      "std": 0.06004625342957233
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.5882352941176471,
+      "std": 0.06960093862470136
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.3333333333333333,
+      "std": 0.07362101738323103
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.07142857142857142,
+      "std": 0.04956347617776504
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.49019607843137253,
+      "std": 0.07069708383262727
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.32608695652173914,
+      "std": 0.06988152725357213
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.11904761904761904,
+      "std": 0.05057601944205112
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.58,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.5454545454545454,
+      "std": 0.07593355178041428
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.08823529411764706,
+      "std": 0.04937482703908928
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5306122448979592,
+      "std": 0.07203339654607951
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.3958333333333333,
+      "std": 0.07133220238382323
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.09523809523809523,
+      "std": 0.04584379641345078
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.64,
+      "std": 0.06857142857142856
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.5714285714285714,
+      "std": 0.07142857142857147
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.20408163265306123,
+      "std": 0.058172215566282534
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.7,
+      "std": 0.0654653670707977
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.5,
+      "std": 0.07293249574894728
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.1111111111111111,
+      "std": 0.04737793696791344
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.6470588235294118,
+      "std": 0.06758308995927091
+    }
+  },
+  "google/gemini-2.0-flash-001": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.34,
+      "std": 0.0676726816132972
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.3409090909090909,
+      "std": 0.07228658768525041
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.5098039215686274,
+      "std": 0.07069708383262727
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.28,
+      "std": 0.06414269805898186
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.3488372093023256,
+      "std": 0.07354134093414838
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.5686274509803921,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.42857142857142855,
+      "std": 0.07728596868577994
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.17857142857142858,
+      "std": 0.07370704611510596
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.5294117647058824,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2608695652173913,
+      "std": 0.06545849153992007
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.30952380952380953,
+      "std": 0.07219871305887662
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.4,
+      "std": 0.06998542122237653
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.38636363636363635,
+      "std": 0.07425392901036848
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.17647058823529413,
+      "std": 0.06636189115503129
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5714285714285714,
+      "std": 0.07142857142857147
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4166666666666667,
+      "std": 0.07191241060522427
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.2619047619047619,
+      "std": 0.06866508638104515
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.48,
+      "std": 0.0713714056959817
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.4489795918367347,
+      "std": 0.07179207795648103
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.20408163265306123,
+      "std": 0.058172215566282534
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.62,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4375,
+      "std": 0.07236046734262122
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.17777777777777778,
+      "std": 0.05763774795025094
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.5490196078431373,
+      "std": 0.07037003311735827
+    }
+  },
+  "google/gemini-2.5-flash": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.5,
+      "std": 0.07142857142857142
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.3181818181818182,
+      "std": 0.07102933373079214
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.43137254901960786,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.42,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.32558139534883723,
+      "std": 0.07230526397743267
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.6470588235294118,
+      "std": 0.06758308995927088
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.40476190476190477,
+      "std": 0.0766572519305696
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2857142857142857,
+      "std": 0.08694008849288351
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.5490196078431373,
+      "std": 0.07037003311735829
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.30434782608695654,
+      "std": 0.06859222936927092
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.35714285714285715,
+      "std": 0.07483181740388338
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.5,
+      "std": 0.07142857142857142
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.5454545454545454,
+      "std": 0.07593355178041426
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.23529411764705882,
+      "std": 0.07384069581892326
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5510204081632653,
+      "std": 0.07179207795648103
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.5,
+      "std": 0.07293249574894728
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.14285714285714285,
+      "std": 0.054649432548286116
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.62,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.5306122448979592,
+      "std": 0.07203339654607953
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2857142857142857,
+      "std": 0.06520506636966263
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.56,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4583333333333333,
+      "std": 0.07267881673425386
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.26666666666666666,
+      "std": 0.06666666666666665
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.6274509803921569,
+      "std": 0.06837488538887333
+    }
+  },
+  "google/gemini-2.5-pro": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.0196078431372549,
+      "std": 0.01960784313725491
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.04,
+      "std": 0.027994168488950623
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0,
+      "std": 0
+    }
+  },
+  "deepseek/deepseek-chat-v3-0324": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.46,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.29545454545454547,
+      "std": 0.06957698714453991
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.47058823529411764,
+      "std": 0.07058823529411762
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.3023255813953488,
+      "std": 0.07086620932791211
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.49019607843137253,
+      "std": 0.07069708383262727
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.47619047619047616,
+      "std": 0.07799829681942305
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.32142857142857145,
+      "std": 0.08987898137227081
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.45098039215686275,
+      "std": 0.0703700331173583
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.30434782608695654,
+      "std": 0.06859222936927092
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.23809523809523808,
+      "std": 0.06651717102567414
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.42,
+      "std": 0.07050835816716033
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.5,
+      "std": 0.07624928516630235
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.20588235294117646,
+      "std": 0.07038741487212932
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5714285714285714,
+      "std": 0.07142857142857148
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4791666666666667,
+      "std": 0.07286915878889004
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.23809523809523808,
+      "std": 0.06651717102567413
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.54,
+      "std": 0.07119963311072637
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.46938775510204084,
+      "std": 0.07203339654607951
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.10204081632653061,
+      "std": 0.04369126727437119
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4583333333333333,
+      "std": 0.07267881673425385
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.3111111111111111,
+      "std": 0.0697920592732311
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.5490196078431373,
+      "std": 0.07037003311735827
+    }
+  },
+  "deepseek/deepseek-chat-v3.1": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.26,
+      "std": 0.06266203485560373
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.18181818181818182,
+      "std": 0.05881787629278457
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.27450980392156865,
+      "std": 0.06311167427227878
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.22,
+      "std": 0.05917804336345138
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.16279069767441862,
+      "std": 0.056964877739143695
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3333333333333333,
+      "std": 0.06666666666666665
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.38095238095238093,
+      "std": 0.07584124375059005
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2857142857142857,
+      "std": 0.08694008849288351
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.35294117647058826,
+      "std": 0.06758308995927091
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.15217391304347827,
+      "std": 0.05354479188959756
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.16666666666666666,
+      "std": 0.058202524647464844
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.28,
+      "std": 0.06414269805898185
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.29545454545454547,
+      "std": 0.06957698714453994
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.14705882352941177,
+      "std": 0.061652134066029464
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.40816326530612246,
+      "std": 0.07094099868916398
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.3125,
+      "std": 0.06761023307918171
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.19047619047619047,
+      "std": 0.06132580154445567
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3469387755102041,
+      "std": 0.06870411522695292
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.061224489795918366,
+      "std": 0.03460372440370038
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.38,
+      "std": 0.06934092056863767
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4166666666666667,
+      "std": 0.07191241060522427
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2,
+      "std": 0.06030226891555273
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.45098039215686275,
+      "std": 0.0703700331173583
+    }
+  },
+  "deepseek/deepseek-r1-0528": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0,
+      "std": 0
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0,
+      "std": 0
+    }
+  },
+  "moonshotai/kimi-k2": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.36,
+      "std": 0.06857142857142856
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.3181818181818182,
+      "std": 0.07102933373079211
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.39215686274509803,
+      "std": 0.06904634063395691
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.42,
+      "std": 0.07050835816716035
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.27906976744186046,
+      "std": 0.06921151712956695
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.43137254901960786,
+      "std": 0.07004145529212454
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2857142857142857,
+      "std": 0.07055211404639927
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.21428571428571427,
+      "std": 0.07896725691322382
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.4117647058823529,
+      "std": 0.06960093862470136
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.34782608695652173,
+      "std": 0.07099970268936746
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.42857142857142855,
+      "std": 0.07728596868577994
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.4,
+      "std": 0.06998542122237653
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.38636363636363635,
+      "std": 0.07425392901036847
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.20588235294117646,
+      "std": 0.07038741487212932
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.5306122448979592,
+      "std": 0.07203339654607951
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.4375,
+      "std": 0.07236046734262122
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.23809523809523808,
+      "std": 0.06651717102567414
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.36,
+      "std": 0.06857142857142856
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3673469387755102,
+      "std": 0.06958255967849925
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2653061224489796,
+      "std": 0.06372446937141223
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.44,
+      "std": 0.07091242083423345
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.4166666666666667,
+      "std": 0.07191241060522427
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.3111111111111111,
+      "std": 0.06979205927323111
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.45098039215686275,
+      "std": 0.0703700331173583
+    }
+  },
+  "meta-llama/Llama-2-7b-chat-hf": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.08011869436201781,
+      "std": 0.0023990706448664876
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.024991106367840625,
+      "std": 0.001472163089379612
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.13847423299077338,
+      "std": 0.0029916001407243537
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.08695652173913043,
+      "std": 0.009664677047412352
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.022427440633245383,
+      "std": 0.005381662015590501
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.14592760180995476,
+      "std": 0.011880527233189641
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.08077591198610307,
+      "std": 0.002677014948906522
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.05154476670870114,
+      "std": 0.0027762166343474007
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.11461506792918896,
+      "std": 0.002890720099229988
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.07600048953616448,
+      "std": 0.002931791201343642
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.026694619147449337,
+      "std": 0.0019057325808828469
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.1515681473708756,
+      "std": 0.003872309550973505
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.0643231114435303,
+      "std": 0.0023722260940328946
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.01316104331179708,
+      "std": 0.0012466458649102337
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.1595515308322553,
+      "std": 0.003400864939873102
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.07299546142208775,
+      "std": 0.003577537577044033
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.024504084014002333,
+      "std": 0.002362148697846192
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.15727321524422974,
+      "std": 0.004870152748860872
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.06382978723404255,
+      "std": 0.0061169742119893365
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.018018018018018018,
+      "std": 0.0035028588527044008
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.15158777711204313,
+      "std": 0.008780869594106178
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.11041009463722397,
+      "std": 0.010168046215029222
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.015719467956469165,
+      "std": 0.0043280108952594805
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.1659877800407332,
+      "std": 0.011879270224991505
+    }
+  },
+  "meta-llama/Llama-3.1-70B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.3127440262377011,
+      "std": 0.00409698130117021
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.28237282106012096,
+      "std": 0.004245411385499426
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.38376715925286925,
+      "std": 0.004212027991340818
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.3337250293772033,
+      "std": 0.016173785403779707
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.28891820580474936,
+      "std": 0.01647400883772239
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3766968325791855,
+      "std": 0.016306670636661125
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2969503956765103,
+      "std": 0.004488839748511276
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2741172761664565,
+      "std": 0.005600851761104813
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.34071634417455743,
+      "std": 0.004300824875945031
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.3265206217109289,
+      "std": 0.00518807720457139
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.28287910552061496,
+      "std": 0.0053250311841503625
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.3814853678442346,
+      "std": 0.00524531465107895
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.31254674644727,
+      "std": 0.004482173695977058
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.28044986838956687,
+      "std": 0.00491397505658609
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.3600689952565761,
+      "std": 0.004458027996783505
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.3156202723146747,
+      "std": 0.006391846814242446
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.2823803967327888,
+      "std": 0.006877643932213746
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.37376990517087133,
+      "std": 0.006472036141592613
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.32916145181476847,
+      "std": 0.011758746606761709
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2869022869022869,
+      "std": 0.011911292695180844
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3732774116237268,
+      "std": 0.011842830288986111
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.3217665615141956,
+      "std": 0.015156476517544152
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.24062877871825877,
+      "std": 0.01487341948674192
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.38391038696537677,
+      "std": 0.015527529783840262
+    }
+  },
+  "meta-llama/Llama-3.1-8B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.2494143370295174,
+      "std": 0.003823587631418619
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.1511917467093561,
+      "std": 0.003378529643027868
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.23291576025804517,
+      "std": 0.0036610519651436384
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2408930669800235,
+      "std": 0.014667434807642652
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.14116094986807387,
+      "std": 0.012655089989508593
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.2239819004524887,
+      "std": 0.014030141018179742
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.25603165412082607,
+      "std": 0.004287688466726902
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.18095838587641866,
+      "std": 0.004833870208379565
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.24635652531906135,
+      "std": 0.003910066353147375
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.24513523436543874,
+      "std": 0.004759117401151745
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.1589098532494759,
+      "std": 0.00432237276466364
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.23131631106447476,
+      "std": 0.004553387128283918
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.2554225878833209,
+      "std": 0.004216908566374474
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.1715721464465183,
+      "std": 0.004124065339303955
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.23717119448037946,
+      "std": 0.003950279859738228
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.2460287443267776,
+      "std": 0.005923326395819426
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.16989498249708285,
+      "std": 0.005737623741149577
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.24208266237251744,
+      "std": 0.005730131196976361
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.2546933667083855,
+      "std": 0.01090244369105057
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.15939015939015938,
+      "std": 0.009639296899436826
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.23127621330137807,
+      "std": 0.010324109941324126
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.2628811777076761,
+      "std": 0.014281923212475713
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.12333736396614269,
+      "std": 0.01144125212293071
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.24236252545824846,
+      "std": 0.013681350048723553
+    }
+  },
+  "meta-llama/Llama-3.1-8B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.2730751210370139,
+      "std": 0.003937277657719408
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2705442902881537,
+      "std": 0.004189648082150457
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.29292626209586675,
+      "std": 0.0039418167778521645
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2679200940070505,
+      "std": 0.015190512411846983
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.23087071240105542,
+      "std": 0.015315675505535623
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3257918552036199,
+      "std": 0.01577199958405744
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2854661262304574,
+      "std": 0.004436984024906908
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2526796973518285,
+      "std": 0.0054562116536128035
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.26768217373404696,
+      "std": 0.0040177105819213
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.262146616081263,
+      "std": 0.004865709051374756
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.2721174004192872,
+      "std": 0.00526180025350562
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.29520811472542846,
+      "std": 0.004925521362823076
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.27898279730740466,
+      "std": 0.00433681734413454
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2666905958363245,
+      "std": 0.004837514469242493
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.29072876239758516,
+      "std": 0.004217290582576192
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.2645612708018154,
+      "std": 0.006066409556643334
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.26114352392065343,
+      "std": 0.006711119023101904
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.2927178386115584,
+      "std": 0.006086852089169507
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.28410513141426785,
+      "std": 0.011285263544723227
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2626472626472626,
+      "std": 0.011588879781269502
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.30317555422408626,
+      "std": 0.01125409964057651
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.259726603575184,
+      "std": 0.014226317161125282
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.22128174123337363,
+      "std": 0.014443516614433063
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.3054989816700611,
+      "std": 0.014706415205076769
+    }
+  },
+  "meta-llama/Llama-3.2-1B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.24855536467280961,
+      "std": 0.0038191812833050353
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.15448239060832444,
+      "std": 0.003408471868266335
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.24919360888155428,
+      "std": 0.003746427697578323
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.23736780258519388,
+      "std": 0.014593484802596304
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.12005277044854881,
+      "std": 0.01181317037860248
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.24773755656108598,
+      "std": 0.014527813743804201
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.251109824358232,
+      "std": 0.004260299017018872
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.135718789407314,
+      "std": 0.00430031400635238
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.24487443392342528,
+      "std": 0.0039021182882567167
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.26031085546444743,
+      "std": 0.004854670226700498
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.16198462613556952,
+      "std": 0.004356005546465855
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.24495744432785357,
+      "std": 0.0046439619208513685
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.25018698578908005,
+      "std": 0.004188113569580602
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.11234745154343144,
+      "std": 0.0034544420675730134
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.25295385942216475,
+      "std": 0.004037176347470974
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.2562405446293495,
+      "std": 0.006003928603465434
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.17152858809801633,
+      "std": 0.005759466926875608
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.25389157273215246,
+      "std": 0.005822331340478861
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.23591989987484355,
+      "std": 0.010624274279031886
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.14137214137214138,
+      "std": 0.009174909214575302
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.2468544038346315,
+      "std": 0.010557519373081851
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.28496319663512093,
+      "std": 0.014645249748948172
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.14993954050785974,
+      "std": 0.012422041387299621
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.2668024439918534,
+      "std": 0.014121177186385265
+    }
+  },
+  "meta-llama/Llama-3.2-3B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.22723723254724348,
+      "std": 0.00370316487890866
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2532906438989683,
+      "std": 0.0041015146315384905
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.2295401695296677,
+      "std": 0.0036424137329655808
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.20329024676850763,
+      "std": 0.013803806906165922
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.23087071240105542,
+      "std": 0.015315675505535623
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.2228506787330317,
+      "std": 0.01400486300110771
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.21627099015634046,
+      "std": 0.004044652909448642
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.24921185372005045,
+      "std": 0.005431198750011316
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.22758336764100454,
+      "std": 0.003804654186575383
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.22910292497858278,
+      "std": 0.0046494596986065865
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.2623340321453529,
+      "std": 0.005200950534128181
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.2168590416229451,
+      "std": 0.004450064953320746
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.22559835452505608,
+      "std": 0.004041668624443553
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2562814070351759,
+      "std": 0.004775706936489904
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.22664941785252263,
+      "std": 0.0038882024029727623
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.2197428139183056,
+      "std": 0.005694709493814757
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.26534422403733954,
+      "std": 0.006745622552774374
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.21757022723206298,
+      "std": 0.005519429847696251
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.2284105131414268,
+      "std": 0.010505064843624273
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2515592515592516,
+      "std": 0.011426579063501668
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.23846614739364888,
+      "std": 0.010434219090191103
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.24079915878023134,
+      "std": 0.01387215779940323
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2539298669891173,
+      "std": 0.015144561256162354
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.21181262729124237,
+      "std": 0.0130453626417148
+    }
+  },
+  "meta-llama/Llama-3.3-70B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.3693581133843511,
+      "std": 0.004265062862734702
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.1424759871931697,
+      "std": 0.0032964984598970997
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.39051834070962416,
+      "std": 0.004225576451209383
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.3689776733254994,
+      "std": 0.016550569562362075
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.13852242744063326,
+      "std": 0.012555502382411893
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.40497737556561086,
+      "std": 0.01651968525601043
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.3570739239529048,
+      "std": 0.004707157733062016
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.15494955863808324,
+      "std": 0.004543485354889963
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.3493618773157678,
+      "std": 0.004326399603652192
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.3822053604210011,
+      "std": 0.005376002060092565
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.1453529000698812,
+      "std": 0.004167069984394753
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.3969919552291011,
+      "std": 0.005283357763094874
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.3709798055347794,
+      "std": 0.004671077085919925
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.1433357262502991,
+      "std": 0.0038331635725110426
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.37783527382492454,
+      "std": 0.00450284807882659
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.3772692889561271,
+      "std": 0.006666090626869132
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.14002333722287047,
+      "std": 0.00530174473721607
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.379495437466452,
+      "std": 0.006491537501103887
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3879849812265332,
+      "std": 0.012193714969797712
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.1483021483021483,
+      "std": 0.009359095241455598
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3702816057519473,
+      "std": 0.011823368778685794
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.3711882229232387,
+      "std": 0.015674569618411988
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.10278113663845223,
+      "std": 0.010566128359555631
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.4124236252545825,
+      "std": 0.015716991804500095
+    }
+  },
+  "meta-llama/Meta-Llama-3-8B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.22981414961736685,
+      "std": 0.003717888479820287
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.18783351120597652,
+      "std": 0.003683561847139981
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.24004200735128647,
+      "std": 0.003699332293699749
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2491186839012926,
+      "std": 0.014834719420117912
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.18733509234828497,
+      "std": 0.014181343704938475
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.25,
+      "std": 0.014572037635852514
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2346072186836518,
+      "std": 0.004163053859029721
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.20081967213114754,
+      "std": 0.005030117889982207
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.2480856319473034,
+      "std": 0.003919260394458932
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.22995961326643005,
+      "std": 0.004655555499103886
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.2050314465408805,
+      "std": 0.0047732122307763405
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.242275854028215,
+      "std": 0.004626667012290455
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.24298803290949889,
+      "std": 0.004147185111039946
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.20100502512562815,
+      "std": 0.004383795437592626
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.24320827943078913,
+      "std": 0.003984379672387714
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.22976550680786686,
+      "std": 0.0057856111619882826
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.20606767794632438,
+      "std": 0.006179764839880476
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.24852388620504562,
+      "std": 0.005781139641374702
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.24468085106382978,
+      "std": 0.010757535320795078
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.19196119196119196,
+      "std": 0.010371467205686649
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.2402636309167166,
+      "std": 0.01046110239958154
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.21661409043112514,
+      "std": 0.013365014275607049
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.16324062877871826,
+      "std": 0.01285950934141717
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.22708757637474541,
+      "std": 0.01337603289069499
+    }
+  },
+  "microsoft/phi-1": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.06161174449476808,
+      "std": 0.0021248742974067664
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.017075773745997867,
+      "std": 0.0012218252901567315
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.05993548871052434,
+      "std": 0.0020559179561517073
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.057579318448883664,
+      "std": 0.007989989364334094
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.022427440633245383,
+      "std": 0.0053816620155905034
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.04751131221719457,
+      "std": 0.007158929311604866
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.0699671878015827,
+      "std": 0.0025060833318010403
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.017654476670870115,
+      "std": 0.0016535304756642162
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.023301770275833675,
+      "std": 0.0013689695215293994
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.07355280871374373,
+      "std": 0.002888011624578935
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.016911250873515023,
+      "std": 0.0015244379830027766
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.05025067039757491,
+      "std": 0.0023590277067754473
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.06768885564697083,
+      "std": 0.0024291180958387424
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.01806652309164872,
+      "std": 0.001456978430706578
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.04519189305735231,
+      "std": 0.0019291751891432778
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.08169440242057488,
+      "std": 0.0037669088439019004
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.019369894982497082,
+      "std": 0.002105675833745851
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.03954195741635355,
+      "std": 0.002606994302817873
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.0607008760951189,
+      "std": 0.005975124793953718
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.016632016632016633,
+      "std": 0.003367812133685714
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.04793289394847214,
+      "std": 0.0052306129207289375
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.06624605678233439,
+      "std": 0.008069273543453612
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.014510278113663845,
+      "std": 0.0041607717700483104
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.048879837067209775,
+      "std": 0.006884114186295962
+    }
+  },
+  "microsoft/phi-1_5": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.22567546462595658,
+      "std": 0.00369414460423975
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.1164176449662042,
+      "std": 0.0030247662371714334
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.022128872552696723,
+      "std": 0.001274105471539368
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.21504112808460635,
+      "std": 0.01409206874625098
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.10949868073878628,
+      "std": 0.011349423117181
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.013574660633484163,
+      "std": 0.0038941820329488194
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2417486971627099,
+      "std": 0.004206179640196712
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.12563051702395964,
+      "std": 0.004161479059672857
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.01753808151502676,
+      "std": 0.0011911543076503482
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.23252967812997186,
+      "std": 0.004673679876562814
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.11558350803633823,
+      "std": 0.0037800877714327073
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.023434767401189226,
+      "std": 0.00163357307557434
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.22905759162303665,
+      "std": 0.004063431273117842
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.08841828188561857,
+      "std": 0.0031055865566677527
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.029322984044846918,
+      "std": 0.0015668405665576824
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.24224659606656582,
+      "std": 0.005892344556552125
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.1453908984830805,
+      "std": 0.005385519912216055
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.01932367149758454,
+      "std": 0.0018415328502703525
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.21839799749687108,
+      "std": 0.010338670626499806
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.12543312543312543,
+      "std": 0.008722078751718664
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.033553025763930495,
+      "std": 0.004409169934579524
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.2618296529968454,
+      "std": 0.014263493548894873
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.12212817412333736,
+      "std": 0.011392878452320253
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.024439918533604887,
+      "std": 0.004929948516031349
+    }
+  },
+  "microsoft/phi-2": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.242074027799469,
+      "std": 0.0037852773102964653
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.17253646389185343,
+      "std": 0.00356347546983791
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.23816667916885456,
+      "std": 0.003689397148656939
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.22209165687426558,
+      "std": 0.014256761154381173
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.20844327176781002,
+      "std": 0.014763421640115518
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.23529411764705882,
+      "std": 0.014274877783291841
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.24531943640223894,
+      "std": 0.004227140907454721
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.20712484237074402,
+      "std": 0.005088281678875619
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.22066694112803623,
+      "std": 0.0037631307465435635
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.24795006731122263,
+      "std": 0.004777431022678603
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.18001397624039134,
+      "std": 0.004542363334534181
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.23341494695114842,
+      "std": 0.004567747818842255
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.24027673896783844,
+      "std": 0.004131361347127432
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2005264417324719,
+      "std": 0.004379884669831317
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.23501509271237603,
+      "std": 0.003937836337468169
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.24565052950075644,
+      "std": 0.005920256073510242
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.18436406067677946,
+      "std": 0.00592463470662894
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.23921989622472714,
+      "std": 0.0057068968540486134
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.22528160200250313,
+      "std": 0.010453996242885833
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.19057519057519057,
+      "std": 0.01034281620049863
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.2444577591372079,
+      "std": 0.010522847220690246
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.2628811777076761,
+      "std": 0.014281923212475718
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.18742442563482467,
+      "std": 0.013578598667756459
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.23828920570264767,
+      "std": 0.013602312125378381
+    }
+  },
+  "microsoft/Phi-3-mini-4k-instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.06629704825862877,
+      "std": 0.002198678202381655
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.22056207755247242,
+      "std": 0.003910345061076641
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.11799564923861676,
+      "std": 0.002794172963613742
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.04935370152761457,
+      "std": 0.007429505064121553
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.19261213720316622,
+      "std": 0.014332930453447065
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.1244343891402715,
+      "std": 0.01110795741522018
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.05655278903686547,
+      "std": 0.002269263771101413
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.19672131147540983,
+      "std": 0.004991274699490613
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.1277892136681762,
+      "std": 0.003029541780107897
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.06963651939787052,
+      "std": 0.0028160076291523493
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.22194269741439554,
+      "std": 0.004913056445245123
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.11414247405852862,
+      "std": 0.003433706687116038
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.04253926701570681,
+      "std": 0.0019514844394192272
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.18557071069633885,
+      "std": 0.0042526163669930036
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.11979301423027167,
+      "std": 0.0030157233863300197
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.06486384266263237,
+      "std": 0.0033871474769455617
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.21423570595099184,
+      "std": 0.006268553567590851
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.12363571300769369,
+      "std": 0.004403379393752253
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.058823529411764705,
+      "std": 0.005887875414251213
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2176022176022176,
+      "std": 0.010865828190181231
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.12043139604553625,
+      "std": 0.007969052659821039
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.05573080967402734,
+      "std": 0.007442756035028476
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.20918984280532044,
+      "std": 0.014151953486952314
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.13238289205702647,
+      "std": 0.01082045397419118
+    }
+  },
+  "microsoft/Phi-3.5-mini-instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.19186318913009526,
+      "std": 0.0034797535199633006
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.28664176449662043,
+      "std": 0.0042646409094891065
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.03510614357512565,
+      "std": 0.0015941025563374102
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2009400705052879,
+      "std": 0.013744010826992668
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.23482849604221637,
+      "std": 0.01540660160998466
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.027149321266968326,
+      "std": 0.005469180159897521
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.18818760856977418,
+      "std": 0.0038399229744897536
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2646595208070618,
+      "std": 0.005539118319726437
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.06340057636887608,
+      "std": 0.00221127454627087
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.19189817647778729,
+      "std": 0.004356697826768151
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.28763102725366874,
+      "std": 0.005351750964513445
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.037425673312346974,
+      "std": 0.002049554928975263
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.18922961854899029,
+      "std": 0.0037875039982769327
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2814070351758794,
+      "std": 0.004919078517415339
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.051832686502802934,
+      "std": 0.0020588641964933547
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.1892965204236006,
+      "std": 0.00538762896137474
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.27094515752625437,
+      "std": 0.006790411058159884
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.04061549472177491,
+      "std": 0.002640669352572215
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.2165206508135169,
+      "std": 0.010306494617433737
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2654192654192654,
+      "std": 0.011627955426851695
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.029958058717795086,
+      "std": 0.00417401558891246
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.19663512092534174,
+      "std": 0.012895113319394174
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2539298669891173,
+      "std": 0.015144561256162346
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.034623217922606926,
+      "std": 0.005837106748376118
+    }
+  },
+  "microsoft/Phi-4-reasoning": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.014446353271903795,
+      "std": 0.001054458419056916
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.09480611881892564,
+      "std": 0.0027627900505822296
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.003075538219188358,
+      "std": 0.00047959717435702384
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.01762632197414806,
+      "std": 0.00451346153162137
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.14907651715039577,
+      "std": 0.012944996390566793
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.010180995475113122,
+      "std": 0.003378256837427385
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.03088206909862961,
+      "std": 0.001699576325445977
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.15494955863808324,
+      "std": 0.004543485354889963
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.003952243721696171,
+      "std": 0.0005693522753477777
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.014318932811161424,
+      "std": 0.0013143544647600278
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.12215234102026555,
+      "std": 0.0038715601143793103
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.00466363530371925,
+      "std": 0.0007357069185129473
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.010845175766641735,
+      "std": 0.0010015209531791455
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.11581718114381431,
+      "std": 0.0035005181191524733
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.008451918930573524,
+      "std": 0.0008501937392455827
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.019667170953101363,
+      "std": 0.001909646865743722
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.12928821470245042,
+      "std": 0.0051261575459753215
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.006262300948291287,
+      "std": 0.0010552968736859578
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.015644555694618274,
+      "std": 0.0031053112208229744
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.11642411642411643,
+      "std": 0.008446188544459447
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.015578190533253445,
+      "std": 0.0030321528897567203
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.025236593059936908,
+      "std": 0.00508865688314544
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.14510278113663846,
+      "std": 0.01225475961510596
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.008146639511201629,
+      "std": 0.0028699774239072185
+    }
+  },
+  "microsoft/Phi-4-reasoning-plus": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.08660003123535842,
+      "std": 0.002485419658839369
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.23203486303806475,
+      "std": 0.003981129165327199
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.21581276723426598,
+      "std": 0.003563144012495489
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.12690951821386603,
+      "std": 0.011417401187794227
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.24406332453825857,
+      "std": 0.015611550196645962
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.251131221719457,
+      "std": 0.01459395037470117
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.11908897896159043,
+      "std": 0.003182005828060058
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2260403530895334,
+      "std": 0.00525175904053261
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.18962536023054755,
+      "std": 0.003557216113470029
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.09362379145759393,
+      "std": 0.0032228220968803533
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.24081062194269742,
+      "std": 0.00505520082646551
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.24320858108895885,
+      "std": 0.004632710484532591
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.09040762902019446,
+      "std": 0.002772908570214862
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.22852357023211295,
+      "std": 0.0045930548326795955
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.21949115998275118,
+      "std": 0.003843977013232726
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.09606656580937972,
+      "std": 0.00405274895773538
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.232438739789965,
+      "std": 0.006453362314498724
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.22186437645374843,
+      "std": 0.005558316057998143
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.11076345431789737,
+      "std": 0.00785334070579951
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2176022176022176,
+      "std": 0.010865828190181228
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.2432594367884961,
+      "std": 0.01050534531069898
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.09989484752891693,
+      "std": 0.009728734810700607
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.21644498186215236,
+      "std": 0.014329085867649667
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.24643584521384929,
+      "std": 0.01375870475672225
+    }
+  },
+  "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.33047009214430734,
+      "std": 0.004156820586355448
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2800604766986837,
+      "std": 0.004234799124243836
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.3861675793263821,
+      "std": 0.004216943105207145
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.3419506462984724,
+      "std": 0.016270521948116977
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.2704485488126649,
+      "std": 0.016144416413053794
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3914027149321267,
+      "std": 0.016424666892578037
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.3117158849642926,
+      "std": 0.004550535466945163
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.2744325346784363,
+      "std": 0.0056028544811106175
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.35034993824619187,
+      "std": 0.004329222285536178
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.3424305470566638,
+      "std": 0.005249839625680904
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.28176100628930817,
+      "std": 0.005318638423551513
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.39710854611169405,
+      "std": 0.005283622664464385
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.3276925953627524,
+      "std": 0.0045386518141982395
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.28164632687245755,
+      "std": 0.004920350074174203
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.3717981888745149,
+      "std": 0.004488348587159822
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.33642208774583965,
+      "std": 0.006498057596646097
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.28308051341890317,
+      "std": 0.006882804734510232
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.3807478976561102,
+      "std": 0.006495675232238725
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3385481852315394,
+      "std": 0.011841504739989045
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.28482328482328484,
+      "std": 0.011885345154236799
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3738765727980827,
+      "std": 0.011846664252158858
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.33964248159831756,
+      "std": 0.015365219312393635
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.24546553808948005,
+      "std": 0.014974239692160026
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.40224032586558045,
+      "std": 0.015655668145098566
+    }
+  },
+  "Qwen/Qwen2-7B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.27284085584882084,
+      "std": 0.003936222550601633
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2722340803984347,
+      "std": 0.00419784112725642
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.33590878403720653,
+      "std": 0.0040908115512790135
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.25499412455934195,
+      "std": 0.014949803107086603
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.25725593667546176,
+      "std": 0.015887455887737243
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3495475113122172,
+      "std": 0.016046508306156143
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2760084925690021,
+      "std": 0.004391643939631504
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.26639344262295084,
+      "std": 0.005550677712923782
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.31107451626183613,
+      "std": 0.004200852789958354
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2742626361522457,
+      "std": 0.004935850944743057
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.25310971348707195,
+      "std": 0.005140535277477763
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.3336831059811123,
+      "std": 0.0050917272992031725
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.27832834704562454,
+      "std": 0.004333693065333874
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.26310122038765255,
+      "std": 0.004816595203296698
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.32470892626131953,
+      "std": 0.004348865441136566
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.27155824508320725,
+      "std": 0.006116799673582683
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.26254375729288215,
+      "std": 0.006722707954445111
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.3446054750402576,
+      "std": 0.0063574696034557196
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.2897371714643304,
+      "std": 0.011351655252845384
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.24255024255024255,
+      "std": 0.011287431867418984
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3271420011983224,
+      "std": 0.01148766704578641
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.277602523659306,
+      "std": 0.014529076564175507
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.24425634824667472,
+      "std": 0.014949276002935902
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.35539714867617106,
+      "std": 0.015281591178239825
+    }
+  },
+  "Qwen/Qwen2.5-72B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.21669529907855692,
+      "std": 0.0036408293209308374
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.14745642120241906,
+      "std": 0.0033438672911976774
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.03780661615782762,
+      "std": 0.0016519618456318941
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2408930669800235,
+      "std": 0.014667434807642665
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.17018469656992086,
+      "std": 0.013658500801784417
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.05542986425339366,
+      "std": 0.0077003180062764345
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.19523258058289905,
+      "std": 0.003894130518004151
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.15195460277427492,
+      "std": 0.004507327603314269
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.054013997529847674,
+      "std": 0.0020512313054123193
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.21698690490760006,
+      "std": 0.0045602667469895
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.13752620545073374,
+      "std": 0.0040718448007976355
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.029963856826396174,
+      "std": 0.0018409857570493367
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.20474943904263276,
+      "std": 0.003901871456788436
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.1258674324000957,
+      "std": 0.003628441587295153
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.05485122897800776,
+      "std": 0.0021145921726704315
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.20763993948562784,
+      "std": 0.005578431182791154
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.1677946324387398,
+      "std": 0.005709256529724026
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.04222580067990696,
+      "std": 0.002690247985367106
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.24030037546933666,
+      "std": 0.010691674352036265
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.13582813582813583,
+      "std": 0.009022196905087427
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.05032953864589575,
+      "std": 0.005353032947961312
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.2092534174553102,
+      "std": 0.013197544617668552
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.16203143893591293,
+      "std": 0.012821046735166274
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.05702647657841141,
+      "std": 0.00740378016979934
+    }
+  },
+  "Qwen/Qwen2.5-7B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.25144463532719036,
+      "std": 0.0038339227613673537
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.26769832799715404,
+      "std": 0.004175675456133655
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.32225639486910207,
+      "std": 0.004047794087138714
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.23971797884841364,
+      "std": 0.014642937244131817
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.26649076517150394,
+      "std": 0.01606926212588972
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.3257918552036199,
+      "std": 0.01577199958405745
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.23557228334298397,
+      "std": 0.004168976735007984
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.282156368221942,
+      "std": 0.005650833337130802
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.3100041169205434,
+      "std": 0.004196875645704974
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2560274140252111,
+      "std": 0.004828482625699525
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.2747728860936408,
+      "std": 0.00527775816250575
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.31677742800513,
+      "std": 0.005023609013216661
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.23906133133881824,
+      "std": 0.004124194127833093
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2793730557549653,
+      "std": 0.004908200622027463
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.31660198361362657,
+      "std": 0.004319933134452316
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.24735249621785174,
+      "std": 0.005934024107589155
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.27094515752625437,
+      "std": 0.006790411058159867
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.32796564680622653,
+      "std": 0.006280319177353501
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.23717146433041303,
+      "std": 0.010643690186565576
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.2855162855162855,
+      "std": 0.011894028625141885
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3103654883163571,
+      "std": 0.011327868056758804
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.25341745531019977,
+      "std": 0.014112221230449789
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.26844014510278114,
+      "std": 0.015419086376867829
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.32382892057026474,
+      "std": 0.014940034769433766
+    }
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.27713571763235983,
+      "std": 0.003955349302134504
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2245642120241907,
+      "std": 0.003935519673807156
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.3695896781936839,
+      "std": 0.004180772154929649
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.2796709753231492,
+      "std": 0.015394999986051539
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.25725593667546176,
+      "std": 0.01588745588773724
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.38009049773755654,
+      "std": 0.016335307010145617
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2753329473074696,
+      "std": 0.004388312159053108
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.24385245901639344,
+      "std": 0.005391622612450514
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.36006587072869495,
+      "std": 0.00435589834788245
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.29727083588300085,
+      "std": 0.00505660596589231
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.23046820405310972,
+      "std": 0.00497902521149481
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.3702926431153084,
+      "std": 0.005214342322355714
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.2787958115183246,
+      "std": 0.004335925865228447
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.23917205072983969,
+      "std": 0.004666306287497279
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.3666235446313066,
+      "std": 0.004475324032811843
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.28536308623298035,
+      "std": 0.006210648695989805
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.2310385064177363,
+      "std": 0.006439760997248229
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.3786008230452675,
+      "std": 0.006488553875472156
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.26282853566958697,
+      "std": 0.011014582936360746
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.24324324324324326,
+      "std": 0.011298373204728875
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.36548831635710005,
+      "std": 0.011791214440749426
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.3049421661409043,
+      "std": 0.014936794606121948
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.24667472793228537,
+      "std": 0.014999043816651148
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.3645621181262729,
+      "std": 0.015366954900331511
+    }
+  },
+  "Qwen/Qwen2.5-Math-7B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.16757769795408403,
+      "std": 0.003300579305020417
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2492885094272501,
+      "std": 0.004079872176577254
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.22481434250993923,
+      "std": 0.0036157616730781656
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.17391304347826086,
+      "std": 0.013000782636459186
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.22031662269129287,
+      "std": 0.015063810046833296
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.21266968325791855,
+      "std": 0.013770538622488658
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.18934568616097278,
+      "std": 0.0038489717163366806
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.24133039092055486,
+      "std": 0.005372606042357613
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.21268011527377523,
+      "std": 0.003713284069008526
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.16448415126667482,
+      "std": 0.0041013643019043875
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.25380852550663874,
+      "std": 0.005145217955186132
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.22886790253002215,
+      "std": 0.004536432454821129
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.17352281226626776,
+      "std": 0.0036618734349662834
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2501794687724336,
+      "std": 0.004737828061401038
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.2219922380336352,
+      "std": 0.003859617009622335
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.1762481089258699,
+      "std": 0.005240295651074807
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.25017502917152856,
+      "std": 0.00661724475087872
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.2283056002862766,
+      "std": 0.0056150387526734185
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.1702127659574468,
+      "std": 0.009404310961486776
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.24740124740124741,
+      "std": 0.011363184530785641
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.22468544038346316,
+      "std": 0.010219470920217948
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.18401682439537329,
+      "std": 0.012572092432921112
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.218863361547763,
+      "std": 0.014386661099032715
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.22606924643584522,
+      "std": 0.013354797030374472
+    }
+  },
+  "Qwen/Qwen2.5-Math-7B-Instruct": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.05466187724504139,
+      "std": 0.0020088433231976385
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.013607257203842048,
+      "std": 0.0010926199495284543
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.14935113644887854,
+      "std": 0.003087197075539109
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.06110458284371328,
+      "std": 0.008215538563078089
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.0158311345646438,
+      "std": 0.004536729561732866
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.167420814479638,
+      "std": 0.012564266744248457
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.0423663385446825,
+      "std": 0.001978833850839277
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.01812736443883985,
+      "std": 0.0016751262937010558
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.12416632358995472,
+      "std": 0.002992484102948519
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.05690857912128258,
+      "std": 0.002563036199235272
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.014116002795248078,
+      "std": 0.0013947433793568126
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.14678792118456338,
+      "std": 0.0038214771874228986
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.04543754674644727,
+      "std": 0.0020138133565171554
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.01866475233309404,
+      "std": 0.0014804529638037173
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.14971970677015956,
+      "std": 0.0033136290788936943
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.06883509833585477,
+      "std": 0.0034818784993227384
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.01353558926487748,
+      "std": 0.0017654465085204418
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.1522633744855967,
+      "std": 0.00480617964613827
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.05381727158948686,
+      "std": 0.005646715253557585
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.011088011088011088,
+      "std": 0.002757547592099381
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.1426003594967046,
+      "std": 0.008561580324609725
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.0694006309148265,
+      "std": 0.008245201688730467
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.015719467956469165,
+      "std": 0.00432801089525949
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.17311608961303462,
+      "std": 0.01207970932178436
+    }
+  },
+  "Qwen/Qwen3-14B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.04779009839137904,
+      "std": 0.0018851482859203353
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.033706865884027035,
+      "std": 0.0017020508391862143
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.0897907133748406,
+      "std": 0.002476117601625262
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.0564042303172738,
+      "std": 0.007912967251854966
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.044854881266490766,
+      "std": 0.00752300925738737
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.10972850678733032,
+      "std": 0.010518180430851056
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.0655278903686547,
+      "std": 0.002431058604173354
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.07424337957124842,
+      "std": 0.0032917733430855712
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.1410456978180321,
+      "std": 0.0031585232075327743
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.05495043446334598,
+      "std": 0.002521168256518782
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.0310272536687631,
+      "std": 0.0020499958473996333
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.09467179666550075,
+      "std": 0.0031613381217249167
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.057778608825729244,
+      "std": 0.002256158600469114
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.06293371620004785,
+      "std": 0.002656449985320101
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.11280724450194049,
+      "std": 0.0029380612202287836
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.049735249621785174,
+      "std": 0.002989852789427544
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.04387397899649942,
+      "std": 0.0031292218153753525
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.11576310610127036,
+      "std": 0.004279974707222554
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.06758448060075094,
+      "std": 0.0062816795662664435
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.05751905751905752,
+      "std": 0.006131398440693686
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.09406830437387657,
+      "std": 0.007147783044392293
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.05573080967402734,
+      "std": 0.007442756035028501
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.04836759371221282,
+      "std": 0.007464862775693241
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.12219959266802444,
+      "std": 0.010456787065768846
+    }
+  },
+  "Qwen/Qwen3-32B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.19842261439950024,
+      "std": 0.003524345854927315
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.03539665599430807,
+      "std": 0.0017426669460680908
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.026029555172155126,
+      "std": 0.0013790854855377575
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.23619271445358403,
+      "std": 0.014568528372231387
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.04221635883905013,
+      "std": 0.007308464707967973
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.033936651583710405,
+      "std": 0.006093361523656755
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.2307469600463231,
+      "std": 0.004139060436703567
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.050283732660781844,
+      "std": 0.0027438687728711924
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.03705228489090161,
+      "std": 0.0017140677016700514
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.2123363113450006,
+      "std": 0.00452450964673279
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.03829489867225716,
+      "std": 0.0022689083548527436
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.02751544829194357,
+      "std": 0.0017663927186836537
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.18474195961106957,
+      "std": 0.0037526660987902043
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.030031107920555158,
+      "std": 0.0018669787694810985
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.029754204398447608,
+      "std": 0.0015779687847085396
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.1985627836611195,
+      "std": 0.005486293332233155
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.04527421236872812,
+      "std": 0.003176435546096447
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.03417427088924673,
+      "std": 0.0024303611563863
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.18648310387984982,
+      "std": 0.009746542371264572
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.030492030492030493,
+      "std": 0.004527789564626701
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.02456560814859197,
+      "std": 0.0037902230533694357
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.19348054679284962,
+      "std": 0.012816347488783618
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.02902055622732769,
+      "std": 0.0058407398142863035
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.03054989816700611,
+      "std": 0.00549456240230792
+    }
+  },
+  "Qwen/Qwen3-8B": {
+    "robench2025a_all_setcsSCP-s": {
+      "acc": 0.30524754021552397,
+      "std": 0.004069596410935969
+    },
+    "robench2025a_all_setcsSCP-c": {
+      "acc": 0.2444859480611882,
+      "std": 0.0040532847923093135
+    },
+    "robench2025a_all_setcsSCP-p": {
+      "acc": 0.3077038481734303,
+      "std": 0.003997581695763712
+    },
+    "robench2025a_all_setq-finSCP-s": {
+      "acc": 0.32314923619271446,
+      "std": 0.01604126323838834
+    },
+    "robench2025a_all_setq-finSCP-c": {
+      "acc": 0.23218997361477572,
+      "std": 0.015346193886430905
+    },
+    "robench2025a_all_setq-finSCP-p": {
+      "acc": 0.32918552036199095,
+      "std": 0.015813981426126226
+    },
+    "robench2025a_all_setmathSCP-s": {
+      "acc": 0.30312680949623627,
+      "std": 0.004515316691433884
+    },
+    "robench2025a_all_setmathSCP-c": {
+      "acc": 0.24889659520807061,
+      "std": 0.0054289018179611796
+    },
+    "robench2025a_all_setmathSCP-p": {
+      "acc": 0.2703170028818444,
+      "std": 0.004030165823403938
+    },
+    "robench2025a_all_seteessSCP-s": {
+      "acc": 0.3044914943091421,
+      "std": 0.005091289321240039
+    },
+    "robench2025a_all_seteessSCP-c": {
+      "acc": 0.25003494060097836,
+      "std": 0.005119722223357741
+    },
+    "robench2025a_all_seteessSCP-p": {
+      "acc": 0.3089658388714003,
+      "std": 0.004989564077458027
+    },
+    "robench2025a_all_setphysicsSCP-s": {
+      "acc": 0.31095736724008977,
+      "std": 0.004475927853999073
+    },
+    "robench2025a_all_setphysicsSCP-c": {
+      "acc": 0.2568796362766212,
+      "std": 0.004779354216341832
+    },
+    "robench2025a_all_setphysicsSCP-p": {
+      "acc": 0.28745148771021994,
+      "std": 0.004203130275903451
+    },
+    "robench2025a_all_setstatSCP-s": {
+      "acc": 0.29614220877458397,
+      "std": 0.00627896354471766
+    },
+    "robench2025a_all_setstatSCP-c": {
+      "acc": 0.24644107351225203,
+      "std": 0.006584009127431466
+    },
+    "robench2025a_all_setstatSCP-p": {
+      "acc": 0.2952227589908749,
+      "std": 0.006102006334869603
+    },
+    "robench2025a_all_setq-bioSCP-s": {
+      "acc": 0.3122653316645807,
+      "std": 0.011596311850395061
+    },
+    "robench2025a_all_setq-bioSCP-c": {
+      "acc": 0.24255024255024255,
+      "std": 0.011287431867418983
+    },
+    "robench2025a_all_setq-bioSCP-p": {
+      "acc": 0.3079688436189335,
+      "std": 0.011303636725620268
+    },
+    "robench2025a_all_seteconSCP-s": {
+      "acc": 0.2912723449001052,
+      "std": 0.014741019246217863
+    },
+    "robench2025a_all_seteconSCP-c": {
+      "acc": 0.2539298669891173,
+      "std": 0.015144561256162363
+    },
+    "robench2025a_all_seteconSCP-p": {
+      "acc": 0.319755600814664,
+      "std": 0.014890423981983118
+    }
+  }
+}

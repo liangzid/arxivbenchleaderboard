@@ -46,8 +46,8 @@ export function parseRobenchScpData(results: any): RobenchScpModelData {
     const modelScpData: { [scenarioKey: string]: RobenchScpScenario } = {};
     
     for (const [key, value] of Object.entries(modelResults as any)) {
-      if (key.startsWith('robench2024b_all_set') && key.includes('SCP-')) {
-        const match = key.match(/robench2024b_all_set(\w+)SCP-([scp])/);
+      if (key.startsWith('robench') && key.includes('SCP-')) {
+        const match = key.match(/^robench(?:2024b|2025a)_all_set(.+)SCP-([scp])$/);
         if (match) {
           const scenario = match[1];
           const scoreType = match[2] as 's' | 'c' | 'p';

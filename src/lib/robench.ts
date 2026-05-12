@@ -1,6 +1,6 @@
 import type { DatasetScore, ModelResult } from '@/types';
 
-const ROBENCH_PREFIX = 'robench2024b';
+const ROBENCH_KEY_RE = /^(robench(?:2024b|2025a))_all_set(.+)SCP-([scp])$/;
 
 interface ScenarioScores {
   acc: number;
@@ -31,14 +31,11 @@ export function extractRobench(raw: ModelResult): RobenchRow {
   }> = {};
 
   Object.entries(raw).forEach(([k, v]) => {
-    if (!k.startsWith(ROBENCH_PREFIX)) return;
-    // k = "robench2024b_all_setcsSCP-s"
-    const lastDash = k.lastIndexOf('-');
-    const construct = k.slice(lastDash + 1) as 's' | 'c' | 'p';
-    const scenario = k
-      .slice(ROBENCH_PREFIX.length + 1, lastDash)   // "all_setcsSCP"
-      .replace(/^all_set/, '')                     // "csSCP" -> 只要 "cs"
-      .replace(/SCP$/, '')                        // "cs"
+    const match = k.match(ROBENCH_KEY_RE);
+    if (!match) return;
+
+    const scenario = match[2];
+    const construct = match[3] as 's' | 'c' | 'p';
 
     if (!groups[scenario]) {
       groups[scenario] = {

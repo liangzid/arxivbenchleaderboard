@@ -131,32 +131,17 @@ export default function Home() {
           </div>
         </div>
 
-        {activeBenchmark === '2024b' ? (
-          <>
-            <Toolbar />
-            <div className="flex justify-center mt-8">
-              <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
-            </div>
-            <RobenchTable activeTab={activeTab} benchmarkVersion="2024b" />
-            
-            <div className="mt-12">
-              <RobenchScpRadarCharts benchmarkVersion="2024b" />
-            </div>
-          </>
-        ) : (
-          <div className="flex items-center justify-center h-96">
-            <div className="text-center">
-              <div className="text-6xl mb-4">🚀</div>
-              <h2 className="text-2xl font-bold text-slate-800 dark:text-white mb-4">
-                ArxivRoll 2025A Coming Soon
-              </h2>
-              <p className="text-slate-600 dark:text-slate-400 max-w-md mx-auto">
-                We're currently preparing fresh test cases from the latest ArXiv preprints (Oct 2024 - Mar 2025). 
-                Stay tuned for the next iteration of our one-time-pad evaluation framework!
-              </p>
-            </div>
+        <>
+          <Toolbar />
+          <div className="flex justify-center mt-8">
+            <TabNavigation activeTab={activeTab} onTabChange={setActiveTab} />
           </div>
-        )}
+          <RobenchTable activeTab={activeTab} benchmarkVersion={activeBenchmark} />
+          
+          <div className="mt-12">
+            <RobenchScpRadarCharts benchmarkVersion={activeBenchmark} />
+          </div>
+        </>
 
 
 
